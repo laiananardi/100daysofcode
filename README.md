@@ -13,21 +13,20 @@
 - Início da maratona 24 de Agosto de 2020 <hr>
 
 ## JavaScript <img src="" width="30" height="30"/> <br>
-- []
+- [ ] 
 
 
 ## React Native <img src="" alt="React Native" width="30" height="30"/> <br>
 
-- [] 
+- [ ] 
 
 ## Node.Js <img src="" alt="Node.Js" width="30" height="30"/> <br>
 
-- [] 
-
+- [ ] 
 
  ## Git e GitHub <img align="center" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_black-512.png" alt="git e github" height="30" width="30" /> 
  
-- [] 
+- [ ] 
 
 
 
