@@ -6,15 +6,13 @@
 ## 🎯 Objetivos do desafio: 
 - Programar no mínimo uma hora todos os dias durante os próximos 100 dias!
 - As tecnologias que escolhi para estudar durante o desafio estão logo abaixo!
-- <a href="https://www.instagram.com/_lai_13_/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="instagram Laiana" height="20" width="20" /></a> <a href="https://www.linkedin.com/in/laiana-santiago/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="Linkedin Laiana Santiago" height="20" width="20" /></a> 
-
+- <a href="https://www.instagram.com/_lai_13_/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="instagram Laiana" height="20" width="20" /></a> <a href="https://www.linkedin.com/in/laiana-santiago/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="Linkedin Laiana Santiago" height="20" width="20" /></a> s
 - Contato:  **laiana.nardi@gmail.com** <br>
 - Início da maratona 24 de Agosto de 2020 <hr>
 
 ## JavaScript <img src="" width="30" height="30"/> <br>
 - [ ] Introdução ao JavaScript
-
-
+-
 ## React Native <img src="" alt="React Native" width="30" height="30"/> <br>
 
 - [ ] 
