@@ -11,7 +11,7 @@
 - Início da maratona 24 de Agosto de 2020 <hr>
 
 ## JavaScript <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/js.png"  height="30"/> 
--<a href="https://www.notion.so/Java-Script-057ddbd40c61438391845690c66ca5fc" target="_blank">My notes</a> (Estão em inglês pois foi uma forma que encontrei de práticar e aprender mais)
+-<a href="https://www.notion.so/Java-Script-057ddbd40c61438391845690c66ca5fc" target="_blank">My notes</a> (Estão em inglês pois foi uma forma que encontrei de praticar e aprender mais)
 - [x] Variables and data type
 - [ ] Arrays
 - [ ] Objetcts Literals
