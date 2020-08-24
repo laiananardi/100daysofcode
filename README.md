@@ -13,7 +13,7 @@
 - Início da maratona 24 de Agosto de 2020 <hr>
 
 ## JavaScript <img src="" width="30" height="30"/> <br>
-- [ ] 
+- [ ] Introdução ao JavaScript
 
 
 ## React Native <img src="" alt="React Native" width="30" height="30"/> <br>
