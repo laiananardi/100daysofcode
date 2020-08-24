@@ -10,18 +10,18 @@
 - Contato:  **laiana.nardi@gmail.com** <br>
 - Início da maratona 24 de Agosto de 2020 <hr>
 
-## JavaScript <img src="" width="30" height="30"/> <br>
+## JavaScript <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/js.png" width="30" height="30"/> <br>
 - [ ] Introdução ao JavaScript
 -
-## React Native <img src="" alt="React Native" width="30" height="30"/> <br>
+## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native" width="30" height="30"/> <br>
 
 - [ ] 
 
-## Node.Js <img src="" alt="Node.Js" width="30" height="30"/> <br>
+## Node.Js <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/nodejs.png" alt="Node.Js" width="30" height="30"/> <br>
 
 - [ ] 
 
- ## Git e GitHub <img align="center" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_black-512.png" alt="git e github" height="30" width="30" /> 
+ ## Git e GitHub <img align="center" src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/github.webp" alt="git e github" height="30" width="30" /> 
  
 - [ ] 
 
