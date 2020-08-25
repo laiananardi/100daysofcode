@@ -11,10 +11,14 @@
 - Início da maratona 24 de Agosto de 2020 <hr>
 
 ## JavaScript <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/js.png"  height="30"/> 
--<a href="https://www.notion.so/Java-Script-057ddbd40c61438391845690c66ca5fc" target="_blank">My notes</a> (Estão em inglês pois foi uma forma que encontrei de praticar e aprender mais)
+-<a href="https://www.notion.so/Java-Script-057ddbd40c61438391845690c66ca5fc" target="_blank">My notes</a>
 - [x] Variables and data type
-- [ ] Arrays
-- [ ] Objetcts Literals
+- [x] Arrays
+- [x] Objetcts Literals
+- [x] Methods for Strings, arrays, objects, etc
+- [x] Loops - for while, for...of, forEach, map
+- [ ] Conditinals(if, ternary & switch)
+- [ ] Functions 
 ## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native"  height="30"/> 
 
 - [ ] react native
@@ -36,6 +40,7 @@
 |Dia|Estudos|
 | -------- | ----------------- |
 | 1 | Variables and data type |  |  
+| 2 | Arrays; Objetcts Literals; Methods for Strings, arrays, objects, etc; Loops - for while, for...of, forEach, map |  |  
 
  💜 Lai !
 
