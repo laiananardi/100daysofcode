@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <nav>
+        <h1>Variações de palavras</h1>
+    </nav>
+    
+    <main>
+        <div>
+            <label class="label" for="component-name">Digite uma palavra</label>
+            <input type="text" class="textbox" placeholder="Palavra" id="word">
+        </div>
+    
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th width="200px">Variação</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Número de caracteres</td>
+                        <td id="answer1"></td>
+                    </tr>
+                    <tr>
+                        <td>Primeiro caracter</td>
+                        <td id="answer2"></td>
+                    </tr>
+                    <tr>
+                        <td>Último caracter</td>
+                        <td id="answer3"></td>
+                    </tr>
+                    <tr>
+                        <td>Letras minúsculas</td>
+                        <td id="answer4"></td>
+                    </tr>
+                    <tr>
+                        <td>Letras maisculas</td>
+                        <td id="answer5"></td>
+                    </tr>
+                    <tr>
+                        <td>Capitalizar</td>
+                        <td id="answer6"></td>
+                    </tr>
+                    <tr>
+                        <td>Sem espaços à esquerda e à direita</td>
+                        <td id="answer7"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="index.js" ></script>
+        
+</body>
+</html>

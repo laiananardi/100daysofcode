@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first script</title>
+    <style>
+        body{
+            background: plum;
+            color:#fff;
+            text-align: center;
+            margin-top: 300px;
+        }
+    </style>
+</head>
+<body>
+        <h1>Hello, world!</h1>
+
+        <script>
+            
+            var n1 = Number(window.prompt("type a number")) 
+            var n2 = Number(window.prompt("type another number"))
+            //turn a string into a number : Number(n), Number.parseInt(n), Number.parseFloat(n)
+            //turn a number into a string : n.toString() or String(n)
+            var s = n1 + n2
+
+            //template literals
+            //concatenation with plus sign
+            // window.alert('A soma entre ' +n1+ ' e ' +n2+ ': é igual ' +s) 
+            //interpolation with template strings
+            window.alert(`A soma entre ${n1} e ${n2} é igual ${s}`)
+
+
+
+            
+        </script>
+</body>
+</html>
