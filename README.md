@@ -43,5 +43,7 @@
 | 1 | Variables and data type |  |  
 | 2 | A evolução do JavaScript e do EcmaScript; Arrays; Objetcts Literals; Methods for Strings, arrays, objects, etc; Loops - for while, for...of, forEach, map |  |  
 | 3 | Conditinals(if, ternary & switch) & Functions and arrow functions|  |  
+
+
  💜 Lai !
 
