@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first script</title>
+    <style>
+        body{
+            background: plum;
+            color:#fff;
+            text-align: center;
+            margin-top: 300px;
+        }
+    </style>
+</head>
+<body>
+       
+
+        <script>
+          
+            var name = window.prompt("What's your name?")
+            
+            document.write(`Hello, <strong>${name}</strong>! Your name has ${name.length} characters.`)
+            document.write(`Uppercase: ${name.toUpperCase()}</br>`)
+            document.write(`Lowercase : ${name.toLowerCase()}</br>`)
+
+        
+        </script>
+</body>
+</html>
