@@ -18,8 +18,8 @@
 - [x] Objetcts Literals
 - [x] Methods for Strings, arrays, objects, etc
 - [x] Loops - for while, for...of, forEach, map
-- [ ] Conditinals(if, ternary & switch)
-- [ ] Functions 
+- [x] Conditinals(if, ternary & switch)
+- [x] Functions and arrow functions
 ## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native"  height="30"/> 
 
 - [ ] react native
@@ -42,6 +42,6 @@
 | -------- | ----------------- |
 | 1 | Variables and data type |  |  
 | 2 | A evolução do JavaScript e do EcmaScript; Arrays; Objetcts Literals; Methods for Strings, arrays, objects, etc; Loops - for while, for...of, forEach, map |  |  
-
+| 3 | Conditinals(if, ternary & switch) & Functions and arrow functions|  |  
  💜 Lai !
 
