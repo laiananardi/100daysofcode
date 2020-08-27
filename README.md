@@ -20,6 +20,10 @@
 - [x] Loops - for while, for...of, forEach, map
 - [x] Conditinals(if, ternary & switch)
 - [x] Functions and arrow functions
+- [x] Template literals
+- [x] <a href="https://stringproject.netlify.app/" target="_blank">String Project</a>
+
+
 ## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native"  height="30"/> 
 
 - [ ] react native
@@ -43,6 +47,7 @@
 | 1 | Variables and data type |  |  
 | 2 | A evolução do JavaScript e do EcmaScript; Arrays; Objetcts Literals; Methods for Strings, arrays, objects, etc; Loops - for while, for...of, forEach, map |  |  
 | 3 | Conditinals(if, ternary & switch) & Functions and arrow functions|  |  
+| 4 | <a href="https://stringproject.netlify.app/" target="_blank">Methods for strings</a> and numbers & template literals|  |  
 
 
  💜 Lai !
