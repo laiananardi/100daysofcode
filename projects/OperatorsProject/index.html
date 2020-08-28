@@ -3,57 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strings</title>
+    <title>Operadores</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
     <nav>
-        <h1>Variações de palavras</h1>
+        <h1>Operadores</h1>
     </nav>
-    
+
     <main>
         <div>
-            <label class="label" for="component-name">Digite uma palavra</label>
-            <input type="text" class="textbox" placeholder="Palavra" id="word">
+            <label class="label" for="component-name">Digite um número</label>
+            <input type="number" class="textbox" placeholder="Número" id="num1">
+        </div>
+        <div>
+            <label class="label" for="component-name">Digite outro número</label>
+            <input type="number" class="textbox" placeholder="Número" id="num2" onblur="calcular()">
         </div>
     
         <div class="table-container">
             <table>
                 <thead>
                     <tr>
-                        <th width="200px">Variação</th>
+                        <th width="200px">Operador</th>
                         <th>Resultado</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Número de caracteres</td>
+                        <td>Soma</td>
                         <td id="answer1"></td>
                     </tr>
+                </tbody>
+                <tbody>
                     <tr>
-                        <td>Primeiro caracter</td>
+                        <td>Subtração</td>
                         <td id="answer2"></td>
                     </tr>
+                </tbody>
+                <tbody>
                     <tr>
-                        <td>Último caracter</td>
+                        <td>Multiplicação</td>
                         <td id="answer3"></td>
                     </tr>
+                </tbody>
+                <tbody>
                     <tr>
-                        <td>Letras minúsculas</td>
+                        <td>Divisão</td>
                         <td id="answer4"></td>
                     </tr>
+                </tbody>
+                <tbody>
                     <tr>
-                        <td>Letras maisculas</td>
+                        <td>Resto</td>
                         <td id="answer5"></td>
                     </tr>
+                </tbody>
+                <tbody>
                     <tr>
-                        <td>Capitalizar</td>
+                        <td>Potência</td>
                         <td id="answer6"></td>
-                    </tr>
-                    <tr>
-                        <td>Sem espaços à esquerda e à direita</td>
-                        <td id="answer7"></td>
                     </tr>
                 </tbody>
             </table>
