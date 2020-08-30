@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background: cadetblue;
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Starting studies DOM</h1>
+    <P>The result</P>
+    <p>Learning <strong>DOM</strong> in JavaScript</p>
+    <div id="msg" name="message" class="click">click me</div>
+
+    <script>
+        //by tagname
+            var p1 = window.document.getElementsByTagName('P')[1]
+            window.document.write(p1.innerText) 
+            //to get html formatting 
+                //window.document.write(p1.innerHTML)
+            //concatenating
+                //window.document.write("It's writte this" + p1.innerText)
+            //modifying style body
+                // var corpo = window.document.body
+                // corpo.style.background = 'black'
+                // p1.style.color = 'blue'
+        //by id 
+            // var d = window.document.getElementById('msg')
+            // d.style.background = 'green'
+            // d.innerText = 'loading...'
+
+            //or you can do it like this
+            // window.document.getElementById('msg').innerText = 'Hello!'
+        //by name
+            // var b = window.document.getElementsByName('message')[0]
+            // b.innerText = 'hello'
+        //by class name
+            // var d = window.document.getElementsByClassName('click')[0]
+            // d.innerText = 'class'
+        //by queryselector
+                var d = window.document.querySelector('div.msg')
+                d.style.background = 'blue'
+
+    </script>
+    
+</body>
+</html>
