@@ -23,7 +23,7 @@
 - [x] Template literals
 - [x] <a href="https://stringproject.netlify.app/" target="_blank">String Project</a>
 - [x] Operadores: aritméticos, atribuições, relacionais, logicos, ternario
-
+- [x] DOM
 
 ## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native"  height="30"/> 
 
@@ -50,7 +50,8 @@
 | 3 | Conditinals(if, ternary & switch) & Functions and arrow functions|  |  
 | 4 | <a href="https://stringproject.netlify.app/" target="_blank">Methods for strings</a> and numbers & template literals|  |  
 | 5 | <a href="https://operatorsproject.netlify.app/" target="_blank">Operators arithmetic</a> and  assignments|  |  
-| 6 | <a href="https://www.notion.so/Curso-em-video-JavaScript-762c7cd4ca7c4e18b2563c1d48bf0d0e" target="_blank">Operators relational, logic, ternary</a>|  |  
+| 6 | <a href="https://www.notion.so/Curso-em-video-JavaScript-762c7cd4ca7c4e18b2563c1d48bf0d0e" target="_blank">Operators relational, logic, ternary</a>|  |
+| 7 | <a href="https://www.notion.so/Curso-em-video-JavaScript-762c7cd4ca7c4e18b2563c1d48bf0d0e" target="_blank">DOM tree, select by</a> and <a href="https://changingcolor.netlify.app/"> color change </a>|  |
 
 
  💜 Lai !
