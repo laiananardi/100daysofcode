@@ -10,7 +10,8 @@ function load() {
     var year = date.getFullYear()
     // var hour = 19
     // var month = 2
-
+    
+    //mês pos extenso
     switch(month){
         case 0 :
             month = 'Janeiro'
@@ -52,7 +53,11 @@ function load() {
         default:
             month = 'mês'
     }
-
+    //acrescentar 0 na frente dos minutos menores que 9
+    if (min <= 9){
+        var minu = `0${min}`
+    }
+    //mudar a imagem e cor do dia de acordo com a hora
     if (hour >= 0 && hour < 12){
         img.src = 'img/morning.jpg'
         document.body.style.background = '#D98F07'
@@ -64,7 +69,7 @@ function load() {
         document.body.style.background = '#222559'
     }
 
-    msg.innerHTML = `Agora são ${hour}:${min} h.`
+    msg.innerHTML = `Agora são ${hour}:${minu} h.`
     msg2.innerHTML = `Hoje é dia ${day} de ${month} de ${year}.`
 
 }
