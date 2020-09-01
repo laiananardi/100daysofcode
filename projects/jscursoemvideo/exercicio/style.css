@@ -1,0 +1,41 @@
+body{
+    
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 23px;
+}
+.message{
+    font-size: 14px;
+    color: #6b6b6b;
+}
+
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 3px 3px 1px rgba(0,0,0, 0.3);
+}
+div{
+    text-align: center;
+    padding: 8px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 13px;
+}
