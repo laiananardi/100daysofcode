@@ -1,0 +1,64 @@
+body{
+    background: #289097;
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 23px;
+}
+p {
+
+    font: normal 10pt Arial;
+    color: #444;
+}
+
+div#ans {
+    font: normal 10pt Arial;
+    color: rgb(148, 34, 100);
+    display: grid;
+   
+}
+
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 3px 3px 1px rgba(0,0,0, 0.3);
+}
+div{
+    text-align: center;
+    padding: 0px;
+    
+}
+
+input#txtano {
+    border: none;
+    border-radius: 20px;
+    background: #ccc;
+    width: 100px;
+    height: 20px;
+}
+
+input#ver {
+    border: none;
+    border-radius: 20px;
+    background: #1b6c72;
+    color: white;
+    width: 90px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+footer p{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 13px;
+}

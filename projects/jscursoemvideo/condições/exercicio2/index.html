@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Verificador de Idade</header>
+    <section>
+        <div>
+            <p>Ano de Naascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem" checked>
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" id="ver" onclick="verify()">
+            </p>
+        </div>
+        <div id="ans">
+            <p> Preencha os dados acima para ver o resultado! </p>
+        </div>
+        
+    
+      
+    </section>
+    <footer>
+        <p>&copy; Lai </p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
