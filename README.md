@@ -25,7 +25,7 @@
 - [x] Operadores: aritméticos, atribuições, relacionais, logicos, ternario
 - [x] DOM
 - [x] Events JavaScript
-- [x]
+- [x] for, while, do while
 
 ## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native"  height="30"/> 
 
@@ -56,6 +56,8 @@
 | 7 | <a href="https://www.notion.so/Curso-em-video-JavaScript-762c7cd4ca7c4e18b2563c1d48bf0d0e" target="_blank">DOM tree, select by</a> and <a href="https://changingcolor.netlify.app/"> color change </a>|  |
 | 8 | <a href="https://developer.mozilla.org/en-US/docs/Web/Events" target="_blank">Events JavaScript</a> and  assignments|  |  
 | 9 | <a href="https://datehour.netlify.app/" target="_blank">hour and data project </a> and if and switch JavaScript |  |  
+| 10 | conditionals |  |
+| 11 | <a href="https://identifyage.netlify.app/" target="_blank">age project </a> and if and repetition structures with JavaScript |  |
 
 
  💜 Lai !
