@@ -27,6 +27,7 @@
 - [x] Events JavaScript
 - [x] for, while, do while
 
+
 ## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native"  height="30"/> 
 
 - [ ] react native
@@ -58,6 +59,7 @@
 | 9 | <a href="https://datehour.netlify.app/" target="_blank">hour and data project </a> and if and switch JavaScript |  |  
 | 10 | conditionals |  |
 | 11 | <a href="https://identifyage.netlify.app/" target="_blank">age project </a> and if and repetition structures with JavaScript |  |
+| 12 | <a href="https://identifyage.netlify.app/" target="_blank">age project </a> and if and repetition structures with JavaScript |  |
 
 
  💜 Lai !
