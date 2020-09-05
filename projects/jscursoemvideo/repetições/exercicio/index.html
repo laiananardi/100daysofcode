@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequência</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body >
+
+    <header>Sequência (P.A)</header>
+
+    <section>
+        <div id="form">
+            <div>   
+                <label for="beggining">Início:</label>
+                <input type="number" name="beggining" id="beggining" placeholder="começo">
+            </div>
+            <div>
+                <label for="end">Fim:</label>
+                <input type="number" name="end" id="end" placeholder="fim">
+            </div>
+            <div>
+                <label for="pattern">Passo:</label>
+                <input type="number" name="pattern" id="pattern" placeholder="razão">
+            </div>
+            <div>
+                <input id="button" type="button" value="Contar" onclick="count()">
+            </div>
+        </div>
+        <div id="ans">
+            <p>Preparando contagem...</p> 
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <i class="fas fa-heart"> </i>Lai ! </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
