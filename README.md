@@ -59,7 +59,8 @@
 | 9 | <a href="https://datehour.netlify.app/" target="_blank">hour and data project </a> and if and switch JavaScript |  |  
 | 10 | conditionals |  |
 | 11 | <a href="https://identifyage.netlify.app/" target="_blank">age project </a> and if and repetition structures with JavaScript |  |
-| 12 | <a href="https://tabuadajs.netlify.app/" target="_blank">tabuada </a>  repetition structures with JavaScript |  |
+| 12 | <a href="https://sequenciapa.netlify.app/" target="_blank">counter </a> repetition structures with JavaScript |  |
+| 13 | <a href="https://tabuadajs.netlify.app/" target="_blank">tabuada </a>  repetition structures with JavaScript |  |
 
 
  💜 Lai !
