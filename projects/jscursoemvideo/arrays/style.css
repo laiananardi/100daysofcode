@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(rgb(12, 53, 105), rgb(141, 45, 128));
+    height: 100vh;
+    font: normal 20pt Arial;
+}
+
+section{
+    background: rgba(255,255,255, 0.7);
+    border-radius: 5px;
+    padding: 15px;
+    width: 70%;
+    margin: auto;
+    box-shadow: 3px 3px 1px rgba(0,0,0, 0.3);
+}
+footer, p{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
