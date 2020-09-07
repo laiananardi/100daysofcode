@@ -62,6 +62,7 @@
 | 12 | <a href="https://sequenciapa.netlify.app/" target="_blank">counter </a> repetition structures with JavaScript |  |
 | 13 | <a href="https://tabuadajs.netlify.app/" target="_blank">tabuada </a>  repetition structures with JavaScript |  |
 | 14 | Arrays in JavaScript |  |
+| 15 | Functions |  |
 
 
  💜 Lai !
