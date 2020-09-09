@@ -64,7 +64,7 @@
 | 14 | Arrays in JavaScript |  |
 | 15 | Functions |  |
 | 16 | Functions exercise 1 |  |
-| 16 | Functions exercise 2 <a href="https://numberanalyzerr.netlify.app/">Number Analyzer</a> |  |
+| 17 | Functions exercise 2 <a href="https://numberanalyzerr.netlify.app/">Number Analyzer</a> |  |
 
 
  💜 Lai !
