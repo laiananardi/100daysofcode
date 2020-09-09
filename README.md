@@ -63,6 +63,7 @@
 | 13 | <a href="https://tabuadajs.netlify.app/" target="_blank">tabuada </a>  repetition structures with JavaScript |  |
 | 14 | Arrays in JavaScript |  |
 | 15 | Functions |  |
+| 16 | Functions exercise 1 |  |
 
 
  💜 Lai !
