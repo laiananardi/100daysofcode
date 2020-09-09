@@ -47,7 +47,7 @@ function finish(){
             plus += values[pos]
             if(values[pos] > bigger)
             bigger = values[pos]
-            if(values[pos] > smaller)
+            if(values[pos] < smaller)
             smaller = values[pos] 
         }
 

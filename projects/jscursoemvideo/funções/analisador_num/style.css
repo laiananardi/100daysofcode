@@ -1,6 +1,6 @@
 body{
     background-image: linear-gradient(rgb(12, 53, 105), rgb(141, 45, 128));
-    height: 100vh;
+    height: 140vh;
     font: normal 20pt Arial;
 }
 
@@ -45,9 +45,11 @@ select{
     background: #bbb ;
     color: white;
     font-size: 18px;
-    overflow: hidden;
+    
     border-radius: 20px;
     padding: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -65,8 +67,13 @@ div{
     padding: 8px;
 }
 
+div#ans{
+    background: #bbb;
+    border-radius: 10px;
+    
+}
 
-footer, p{
+footer,p{
     color: white;
     text-align: center;
     font-style: italic;
