@@ -58,11 +58,6 @@ function finish(){
         ans.innerHTML += `<p>O maior valor é ${bigger} </p>`
         ans.innerHTML += `<p>O menor valor é ${smaller} </p>`
         ans.innerHTML += `<p>A soma de todos os valores é ${plus} </p>`
-        ans.innerHTML += `<p>A média dos valores digitados é ${media} </p>`
-        
-
-
-
-        
+        ans.innerHTML += `<p>A média dos valores digitados é ${media} </p>`              
     }
 }
