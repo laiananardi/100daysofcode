@@ -11,14 +11,13 @@ function onSubmit(e){
     
     if(nameInput.value === '' || emailInput.value === '') {
         msg.classList.add('error');
-        msg.innerHTML = 'Please enter all fields';
+        msg.innerHTML = 'Por favor, preencha todos os campos!';
 
         setTimeout(() => msg.remove(), 3000);
         
     } else{
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(`${nameInput.value} : ${emailInput.value}`));
-
         userList.appendChild(li);
 
         nameInput.value = ''
