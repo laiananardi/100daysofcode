@@ -26,6 +26,7 @@
 - [x] DOM
 - [x] Events JavaScript
 - [x] for, while, do while
+- [x] insertAdjacentHTML()
 
 
 ## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native"  height="30"/> 
@@ -66,6 +67,7 @@
 | 16 | Functions exercise 1 |  |
 | 17 | Functions exercise 2 <a href="https://numberanalyzerr.netlify.app/">Number Analyzer</a> |  |
 | 18 |<a href="https://listusers.netlify.app/">List Users</a> |  |
+| 18 |insertAdjacentHTML() |  |
 
 
  💜 Lai !
