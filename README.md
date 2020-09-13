@@ -69,7 +69,7 @@
 | 18 |<a href="https://listusers.netlify.app/">List Users</a> |  |
 | 19 |insertAdjacentHTML() |  |
 | 20 | Binary to Decimal converter |  |
-| 21 | <a href=""https://bintodecconverter.netlify.app/>Decimal to Binary converter</a> |  |
+| 21 | <a href="https://bintodecconverter.netlify.app/">Decimal to Binary converter</a> |  |
 
 
  💜 Lai !
