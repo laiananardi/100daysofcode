@@ -1,0 +1,58 @@
+body{
+    background: rgb(55, 136, 150);
+    color: #fff;
+    font: normal 15pt Arial;
+    text-align: center;
+}
+
+section{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.746);
+    color: #555;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    
+}
+
+select, input{
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px;
+    width: 150px;
+    height: 23px;
+}
+
+input#ans{
+    width: 300px;
+}
+input#button{
+    background:  rgb(29, 98, 110);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 23px;
+}
+div#dec{
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #fff;
+    width: 150px;
+    height: 23px;
+    display: inline-block;
+
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 13px;
+}
+

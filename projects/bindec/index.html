@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2Dec</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Binary and Decimal Converter</h1>
+    
+    <section>
+        <div id="form">
+            <select name="conv" id="first" >
+                <option value="">...</option>
+                <option value="bin">Binary</option>
+                <option value="dec">Decimal</option>
+            </select>
+            <p>to</p>
+            <select name="conv" id="second" >
+                <option value="">...</option>
+                <option value="bin">Binary</option>
+                <option value="dec">Decimal</option>
+            </select>
+            <div>
+                <input type="number" name="num" id="num" placeholder="Enter a number.">
+            </div>
+
+        </div>
+        <div class="button">
+            <input type="button" id="button" value="Convert" onclick="convert()">
+        </div>
+        <div>
+            <div>
+                <input type="text" name="ans" id="ans">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; <i class="fas fa-heart"> </i> Lai ! </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
