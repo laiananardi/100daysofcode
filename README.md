@@ -68,7 +68,7 @@
 | 17 | Functions exercise 2 <a href="https://numberanalyzerr.netlify.app/">Number Analyzer</a> |  |
 | 18 |<a href="https://listusers.netlify.app/">List Users</a> |  |
 | 19 |insertAdjacentHTML() |  |
-| 20 | Binary to Decimal converter |  |
+| 20 | <a href="https://bintodecconverter.netlify.app/">Binary to Decimal converter</a> |  |
 | 21 | <a href="https://bintodecconverter.netlify.app/">Decimal to Binary converter</a> |  |
 
 
