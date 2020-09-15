@@ -27,6 +27,8 @@
 - [x] Events JavaScript
 - [x] for, while, do while
 - [x] insertAdjacentHTML()
+- [x] setTimeout()
+
 
 
 ## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native"  height="30"/> 
@@ -70,6 +72,8 @@
 | 19 |insertAdjacentHTML() |  |
 | 20 | <a href="https://bintodecconverter.netlify.app/">Binary to Decimal converter</a> |  |
 | 21 | <a href="https://bintodecconverter.netlify.app/">Decimal to Binary converter</a> |  |
+| 22 | Change text with JavaScript (setTimeout() and innerText) change_text |  |
+| 23 | Change images with JavaScript (home section of an website): change_img |  |
 
 
  💜 Lai !
