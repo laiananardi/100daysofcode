@@ -1,0 +1,67 @@
+html {
+    background: #2e1e40;
+    background-attachment: fixed;
+    color: #fff;
+  }
+  
+  body {
+    color: rgba(255, 255, 255, 0.8);
+    font: normal 15pt Arial;
+    margin: 0;
+    padding-top: 5rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+
+  
+  .calculator {
+    font-size: 28px;
+    margin: 0 auto;
+    width: 12em;
+    
+    }
+  
+  
+  /* Calculator after dividing by zero */
+  .broken {
+    animation: broken 2s;
+    transform: translate3d(0,-2000px,0);
+    opacity: 0;
+  }
+  
+  .viewer {
+    color: #cc567a;
+    float: left;
+    line-height: 3em;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 3em;
+    width: 8.5em;
+  }
+  
+  button {
+    border: 0;
+    background: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    width: 2em;
+    height: 2em;
+    transition: all 0.5s;
+    margin: 0.5em;
+    
+    
+    }
+
+    button:hover{
+        background: rgba(0, 0, 0, 0.4);
+    }
+    
