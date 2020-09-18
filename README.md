@@ -28,6 +28,8 @@
 - [x] for, while, do while
 - [x] insertAdjacentHTML()
 - [x] setTimeout()
+- [x] Window setInterval() Method
+- [x] Math.floor()
 
 
 
@@ -76,6 +78,7 @@
 | 23 | Change images with JavaScript (home section of an website): change_img |  |
 | 24 | Home page of the website iVet |  |
 | 25 | <a href="https://calculatorlai.netlify.app/">Calculator</a> JavaScript  |
+| 26 | <a href="https://countdowntimerjs.netlify.app/">CountDown timer</a> JavaScript  |
 
 
  💜 Lai !
