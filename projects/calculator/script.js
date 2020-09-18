@@ -1,22 +1,29 @@
+var viewer = document.querySelector("#viewer")
+var equals = document.querySelector("#equals")
+var nums = document.querySelectorAll(".num")
+var ops = document.querySelectorAll(".ops")
+var theNum = "";
+var oldNum = "";
+var resultNum;
+var operator;
 
+// // Shortcut to get elements
+// var el = function (element) {
+//   if (element.charAt(0) === "#") {
+//     return document.querySelector(element);
+//   }
 
-// Shortcut to get elements
-var el = function (element) {
-  if (element.charAt(0) === "#") {
-    return document.querySelector(element);
-  }
+//   return document.querySelectorAll(element);
+// };
 
-  return document.querySelectorAll(element);
-};
-
-var viewer = el("#viewer"),
-  equals = el("#equals"),
-  nums = el(".num"),
-  ops = el(".ops"),
-  theNum = "",
-  oldNum = "",
-  resultNum,
-  operator;
+// var viewer = el("#viewer"),
+//   equals = el("#equals"),
+//   nums = el(".num"),
+//   ops = el(".ops"),
+//   theNum = "",
+//   oldNum = "",
+//   resultNum,
+//   operator;
 
 var setNum = function () {
   if (resultNum) {
@@ -101,7 +108,9 @@ for (var i = 0, l = ops.length; i < l; i++) {
 
 equals.onclick = displayNum;
 
-el("#clear").onclick = clearAll;
+var clear = document.querySelector("#clear").onclick = clearAll;
+//shortcut
+// el("#clear").onclick = clearAll;
 
 
 
