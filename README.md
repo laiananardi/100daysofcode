@@ -75,6 +75,7 @@
 | 22 | Change text with JavaScript (setTimeout() and innerText) change_text |  |
 | 23 | Change images with JavaScript (home section of an website): change_img |  |
 | 24 | Home page of the website iVet |  |
+| 25 | <a href="https://calculatorlai.netlify.app/">Calculator</a> JavaScript  |
 
 
  💜 Lai !
