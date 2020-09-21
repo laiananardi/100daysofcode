@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 </head>
 
-<body>
+<body onload="load()">
 
     <div class="container">
-        <h1>To-do list</h1>
+        <div class="header">
+            <h1>To-do list</h1>
+            <div class="today">
+
+            </div>
+        </div>
         
         <div class="add-element">
             <input id="task" type="text" placeholder="Enter a task">

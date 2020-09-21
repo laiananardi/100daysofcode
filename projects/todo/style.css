@@ -18,15 +18,28 @@ body{
     text-align: center;
    
 }
+
 @media(max-width: 600px){
     .container{
         width: 320px;
     }   
 }
 
-h1{
-    margin: 12px 0;
-    color: #2c588b;
+.header{
+    background:#2ab1f0;
+    height: 150px;
+    background-size: cover;
+    background-position: 10% 20%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+h1, h2{
+    padding: 12px 0;
+    margin: 0;
+    color: #fff;
+  
 }
 .add-elements{
     margin: 15px 0;
@@ -41,7 +54,7 @@ input{
 }
 ::placeholder{
     font-size: 18px;
-    padding: 5px;
+    padding: 0 10px;
 }
 
 i#add{
@@ -49,12 +62,15 @@ i#add{
     size: 30px;
     cursor: pointer;
 }
+i#add:hover{
+    color: #1565c0;
+}
 .element-list{
     
     overflow-y: scroll
 }
 ul{
-    padding: 15px;
+    padding: 0;
    
 }
 li{
@@ -62,23 +78,37 @@ li{
     padding: 5px 15px;
     font-size: 17px;
     background-color: #fff;
-    margin: 12px 15px;
+    margin: 12px 43px;
     box-shadow: 0 2px 8px rgba(0,0,0,.16);
     border-radius: 10px;
     transition: .4s;
     text-align: left;
 }
-.elements i{
+.elements i#delete{
     color: #444;
     float: right;
     cursor: pointer;
 }
+
+.elements i#delete:hover{
+    color: rgb(209, 49, 81);
+}
+
+.elements i#edit{
+    color: #444;
+    float: right;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.elements i#edit:hover{
+    color: rgb(49, 209, 116);
+}
+
 label{
     cursor: pointer;
 }
-i#add:hover{
-    color: #1565c0;
-}
+
 
 li:hover{
     background-color: #e0e0e0;
