@@ -97,6 +97,7 @@ add.onclick = function () {
 
 };
 
+// add a task with enter 
 function enterAsClick(event) {
     if (event.keyCode === 13) {
       event.preventDefault(); // Cancel the default action, if needed
