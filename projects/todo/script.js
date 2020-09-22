@@ -136,4 +136,3 @@ function deletetask(ev) {
         localStorage.setItem('tasks', JSON.stringify(tasks))
     }
 }
-
