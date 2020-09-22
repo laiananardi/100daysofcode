@@ -26,6 +26,11 @@
 - [x] DOM
 - [x] Events JavaScript
 - [x] for, while, do while
+- [x] insertAdjacentHTML()
+- [x] setTimeout()
+- [x] Window setInterval() Method
+- [x] Math.floor()
+
 
 
 ## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native"  height="30"/> 
@@ -51,15 +56,31 @@
 | 1 | Variables and data type |  |  
 | 2 | A evolução do JavaScript e do EcmaScript; Arrays; Objetcts Literals; Methods for Strings, arrays, objects, etc; Loops - for while, for...of, forEach, map |  |  
 | 3 | Conditinals(if, ternary & switch) & Functions and arrow functions|  |  
-| 4 | <a href="https://stringproject.netlify.app/" target="_blank">Methods for strings</a> and numbers & template literals|  |  
-| 5 | <a href="https://operatorsproject.netlify.app/" target="_blank">Operators arithmetic</a> and  assignments|  |  
-| 6 | <a href="https://www.notion.so/Curso-em-video-JavaScript-762c7cd4ca7c4e18b2563c1d48bf0d0e" target="_blank">Operators relational, logic, ternary</a>|  |
-| 7 | <a href="https://www.notion.so/Curso-em-video-JavaScript-762c7cd4ca7c4e18b2563c1d48bf0d0e" target="_blank">DOM tree, select by</a> and <a href="https://changingcolor.netlify.app/"> color change </a>|  |
-| 8 | <a href="https://developer.mozilla.org/en-US/docs/Web/Events" target="_blank">Events JavaScript</a> and  assignments|  |  
-| 9 | <a href="https://datehour.netlify.app/" target="_blank">hour and data project </a> and if and switch JavaScript |  |  
+| 4 | <a href="https://stringproject.netlify.app/" >Methods for strings</a> and numbers & template literals|  |  
+| 5 | <a href="https://operatorsproject.netlify.app/" >Operators arithmetic</a> and  assignments|  |  
+| 6 | <a href="https://www.notion.so/Curso-em-video-JavaScript-762c7cd4ca7c4e18b2563c1d48bf0d0e" >Operators relational, logic, ternary</a>|  |
+| 7 | <a href="https://www.notion.so/Curso-em-video-JavaScript-762c7cd4ca7c4e18b2563c1d48bf0d0e" >DOM tree, select by</a> and <a href="https://changingcolor.netlify.app/"> color change </a>|  |
+| 8 | <a href="https://developer.mozilla.org/en-US/docs/Web/Events" >Events JavaScript</a> and  assignments|  |  
+| 9 | <a href="https://datehour.netlify.app/" >hour and data project </a> and if and switch JavaScript |  |  
 | 10 | conditionals |  |
-| 11 | <a href="https://identifyage.netlify.app/" target="_blank">age project </a> and if and repetition structures with JavaScript |  |
-| 12 | <a href="https://identifyage.netlify.app/" target="_blank">age project </a> and if and repetition structures with JavaScript |  |
+| 11 | <a href="https://identifyage.netlify.app/" >age project </a> and if and repetition structures with JavaScript |  |
+| 12 | <a href="https://sequenciapa.netlify.app/" >counter </a> repetition structures with JavaScript |  |
+| 13 | <a href="https://tabuadajs.netlify.app/" >tabuada </a>  repetition structures with JavaScript |  |
+| 14 | Arrays in JavaScript |  |
+| 15 | Functions |  |
+| 16 | Functions exercise 1 |  |
+| 17 | Functions exercise 2 <a href="https://numberanalyzerr.netlify.app/">Number Analyzer</a> |  |
+| 18 |<a href="https://listusers.netlify.app/">List Users</a> |  |
+| 19 |insertAdjacentHTML() |  |
+| 20 | <a href="https://bintodecconverter.netlify.app/">Binary to Decimal converter</a> |  |
+| 21 | <a href="https://bintodecconverter.netlify.app/">Decimal to Binary converter</a> |  |
+| 22 | Change text with JavaScript (setTimeout() and innerText) change_text |  |
+| 23 | Change images with JavaScript (home section of an website): change_img |  |
+| 24 | Home page of the website iVet |  |
+| 25 | <a href="https://calculatorlai.netlify.app/">Calculator</a> JavaScript  |
+| 26 | <a href="https://countdowntimerjs.netlify.app/">CountDown timer</a> JavaScript  |
+| 27 | <a href="https://to-do-listjs.netlify.app/">To Do List</a> JavaScript  |
+| 28 | <a href="https://to-do-listjs.netlify.app/">To Do List</a> changing background and data JavaScript  |
 
 
  💜 Lai !
