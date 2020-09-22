@@ -94,9 +94,17 @@ add.onclick = function () {
                                 <lable>${text}</lable>    
                                 <i id="" class="far fa-trash-alt delete"></i> 
                             </li>`
-    console.log(tasks)
 
 };
+
+function enterAsClick(event) {
+    if (event.keyCode === 13) {
+      event.preventDefault(); // Cancel the default action, if needed
+      add.click(); // Trigger the button element with a click
+    }
+  };
+  
+  task.addEventListener('keyup', enterAsClick);
 
 // show all tasks
 function showTasks(){
