@@ -49,9 +49,20 @@ i#add{
     size: 30px;
     cursor: pointer;
 }
+
+i#add:hover{
+    color: #1565c0;
+}
+#list{
+
 .element-list{
+
     
-    overflow-y: scroll
+    overflow-y: scroll;
+    height: 45vh;
+}
+.elements{
+    height: 100px;
 }
 ul{
     padding: 15px;
@@ -73,6 +84,24 @@ li{
     float: right;
     cursor: pointer;
 }
+
+
+.elements i:hover{
+    color: rgb(209, 49, 81);
+}
+
+/* .elements i#edit{
+    color: #444;
+    float: right;
+    padding-right: 10px;
+    cursor: pointer;
+} */
+
+/* .elements i#edit:hover{
+    color: rgb(49, 209, 116);
+} */
+
+
 label{
     cursor: pointer;
 }
