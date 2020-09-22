@@ -1,6 +1,6 @@
 const task = document.querySelector("#task");
 const add = document.querySelector("#add");
-const list = document.querySelector("#list");
+var list = document.querySelector("#list");
 const element = document.getElementsByTagName('li');
 const today = document.getElementsByClassName('today')[0]
 const header = document.querySelector(".header")
@@ -8,7 +8,12 @@ var date = new Date()
 var day = date.getDate()
 var month = date.getMonth()
 var hour = date.getHours()
+var tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
+
+
+
+// background, day and month
 function load() {
 
     switch (month) {
@@ -70,36 +75,56 @@ function load() {
     }
 
     today.innerHTML = `<h2>${day} de ${month}</h2>`
+    showTasks()
+}   
 
-}
-
+// add a task
 add.onclick = function () {
-
+   
     var text = task.value
     if (text == '') {
         alert('Please, write a task!')
     } else {
-
-        list.innerHTML += `<li>
-                                <lable>${text}</lable>    
-                                <i id="delete" class="far fa-trash-alt delete"></i> 
-                            </li>`
+        tasks.push(text)
+        localStorage.setItem('tasks', JSON.stringify(tasks))
         task.value = ''
     }
+    // add a task to the list
+    list.innerHTML +=   `<li>
+                                <lable>${text}</lable>    
+                                <i id="" class="far fa-trash-alt delete"></i> 
+                            </li>`
+    console.log(tasks)
 
 };
 
+// show all tasks
+function showTasks(){
+    tasks.forEach(function (element, index) {
+        list.innerHTML +=   `<li>
+                                <lable>${element}</lable>    
+                                <i id="${index}" class="far fa-trash-alt delete"></i> 
+                            </li>`
+
+    });
+}
+
+// mark as checked
 list.onclick = function (ev) {
     if (ev.target.tagName == 'LI') {
         ev.target.classList.toggle('checked')
     }
 };
 
+// delete a task
 list.addEventListener('click', deletetask)
 
 function deletetask(ev) {
     if (ev.target.classList.contains('delete')) {
-        ev.target.parentElement.remove();
+        ev.target.parentElement.remove()
+        var id = this.getAttribute('id')
+        tasks.splice(id, 1)
+        localStorage.setItem('tasks', JSON.stringify(tasks))
     }
 }
 

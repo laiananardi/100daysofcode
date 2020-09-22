@@ -65,9 +65,13 @@ i#add{
 i#add:hover{
     color: #1565c0;
 }
-.element-list{
+#list{
     
-    overflow-y: scroll
+    overflow-y: scroll;
+    height: 45vh;
+}
+.elements{
+    height: 100px;
 }
 ul{
     padding: 0;
@@ -84,26 +88,26 @@ li{
     transition: .4s;
     text-align: left;
 }
-.elements i#delete{
+.elements i{
     color: #444;
     float: right;
     cursor: pointer;
 }
 
-.elements i#delete:hover{
+.elements i:hover{
     color: rgb(209, 49, 81);
 }
 
-.elements i#edit{
+/* .elements i#edit{
     color: #444;
     float: right;
     padding-right: 10px;
     cursor: pointer;
-}
+} */
 
-.elements i#edit:hover{
+/* .elements i#edit:hover{
     color: rgb(49, 209, 116);
-}
+} */
 
 label{
     cursor: pointer;
