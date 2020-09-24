@@ -1,0 +1,91 @@
+body{
+    background: #F2F2F2;
+    font: normal 15pt Arial;
+}
+
+#header{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+#header h1{
+    text-align: center;
+    color: #BF2431 ;
+}
+
+#container{
+    background : #F2D5D5;
+    border-radius :10px;
+    width:400px;
+    margin:20px auto;
+    padding:20px;
+    text-align:center;
+    
+  }
+
+#img{
+    width:400px;
+    margin: auto;
+    text-align:center;
+}
+#img img{
+    width: 180px;
+}
+  
+  #timer{ 
+    color: #fff; 
+    font-size:50px; 
+    margin:10px auto;
+    border : 5px solid #fff;
+    /* background: #fff; */
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    cursor:default;
+  }
+  
+  #time{
+    margin-top:70px;
+    z-index : 1;
+    position:relative;
+  }
+  
+  #buttons button { 
+    background:#A9BF5A; 
+    border: none;
+    color:#fff; 
+    cursor:pointer; 
+    padding:5px; 
+    width:90px; 
+    margin:10px auto;
+    font-size:14px;
+    height : 50px;
+    border-radius : 10px;
+  }
+
+  #buttons button:hover{
+      background: #a9bf5a86;
+  }
+  
+  #buttons button#shortBreak{
+    background : #95a851;
+  }
+  #buttons button#shortBreak:hover{
+    background : #95a85186;
+  }
+  
+  #buttons button#longBreak{
+    background : #6d7a3a;
+  }
+  #buttons button#longBreak:hover{
+    background : #6d7a3a79;
+  }
+  
+  #buttons button#stop{
+    background : #F25C5C;
+    ;
+  }
+  #buttons button#stop:hover{
+    background : #f25c5c80;
+    ;
+  }
