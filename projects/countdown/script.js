@@ -8,10 +8,16 @@ var secondstimer;
 var toCount;
 
 function submit() {
-    display("submit", "start");
+
+    if(secondsInput.value == ''){
+        alert('Please, insert a number!')
+    }else{
+        display("submit", "start");
     seconds = Number(secondsInput.value);
     secondsInput.style.display = "none";
     timer();
+    }
+    
 }
 
 function display(first, second) {
