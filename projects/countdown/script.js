@@ -9,15 +9,15 @@ var toCount;
 
 function submit() {
 
-    if(secondsInput.value == ''){
-        alert('Please, insert a number!')
-    }else{
+    if (secondsInput.value == '') {
+        alert('Please, enter a number!')
+    } else {
         display("submit", "start");
-    seconds = Number(secondsInput.value);
-    secondsInput.style.display = "none";
-    timer();
+        seconds = Number(secondsInput.value);
+        secondsInput.style.display = "none";
+        timer();
     }
-    
+
 }
 
 function display(first, second) {
@@ -79,6 +79,6 @@ function timer() {
     setInterval(count, 1000);
 }
 
-function refresh(){
+function refresh() {
     document.location.reload();
 }

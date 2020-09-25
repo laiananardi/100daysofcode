@@ -18,23 +18,22 @@
     <div id="container">
       <div id="timer">
         <div id="time">
-          <span id="min">25</span>
-          <span id="dd">:</span>
-          <span id="sec">00</span>
+          00 : 00 
         </div>
         
       </div>
+      <div id="minutes">
+        <input id="session" value="" type="number" placeholder="session">
+        <input id="break" value=""type="number" placeholder="break">
+      </div>
 
       <div id="buttons">
-        <button id="start">Start</button>
-        <button id="shortBreak">Short Break</button>
-        <button id="longBreak">Long Break</button>
-        <button id="stop">Stop</button>
+        <button id="start" value="1" onclick="check(this)" >Start</button>
+        <button id="stop" value="0" onclick="check(this)">Stop</button>
+        <button id="submit" onclick="submit()">submit</button>
       </div>
+
     </div>
-  </div>
-  <div id="img">
-    <img src="img/pomodoro.png" alt="">
   </div>
   <script src="script.js"></script>
 </body>

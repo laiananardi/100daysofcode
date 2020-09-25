@@ -23,14 +23,6 @@ body{
     
   }
 
-#img{
-    width:400px;
-    margin: auto;
-    text-align:center;
-}
-#img img{
-    width: 180px;
-}
   
   #timer{ 
     color: #fff; 
@@ -48,7 +40,25 @@ body{
     z-index : 1;
     position:relative;
   }
-  
+  #minutes input { 
+    background: #ffffffb2 ;
+    border: none;
+    color:#F25C5C; 
+    cursor:pointer; 
+    padding:5px; 
+    width:90px; 
+    margin:10px auto;
+    font-size:14px;
+    height : 50px;
+    border-radius : 10px;
+    text-align: center;
+  }
+
+#minutes input::placeholder{
+  color: #F25C5C;
+  font-size: 20px;
+  text-align: center;
+}
   #buttons button { 
     background:#A9BF5A; 
     border: none;
@@ -65,23 +75,16 @@ body{
   #buttons button:hover{
       background: #a9bf5a86;
   }
-  
-  #buttons button#shortBreak{
-    background : #95a851;
-  }
-  #buttons button#shortBreak:hover{
-    background : #95a85186;
-  }
-  
-  #buttons button#longBreak{
-    background : #6d7a3a;
-  }
-  #buttons button#longBreak:hover{
-    background : #6d7a3a79;
-  }
-  
+
+ #buttons button#start{
+   display: none;
+ }
+ #buttons button#refresh{
+  display: none;
+}
   #buttons button#stop{
     background : #F25C5C;
+    display: none
     ;
   }
   #buttons button#stop:hover{
