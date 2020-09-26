@@ -86,6 +86,7 @@
 | 30 | <a href="https://stopwatchjs.netlify.app/">Stopwatch</a> JavaScript  |
 | 31 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/projects/pomodoro">Pomodoro</a> HTML e CSS  |
 | 32 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/projects/pomodoro">Pomodoro</a> Javascript  |
+| 32 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/curso-javascript-ninja/challenge-01">curso javascript ninja</a> challenge-01|
 
 
  💜 Lai !
