@@ -31,6 +31,7 @@
 - [x] Window setInterval() Method
 - [x] Math.floor()
 - [x] LocalStorage
+- [x] join() method
 
 
 
@@ -87,6 +88,7 @@
 | 31 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/projects/pomodoro">Pomodoro</a> HTML e CSS  |
 | 32 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/projects/pomodoro">Pomodoro</a> Javascript  |
 | 32 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/curso-javascript-ninja/challenge-01">curso javascript ninja</a> challenge-01|
+| 32 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/projects/quiz">Quiz App(beggining)</a> and <a>join() method</a>|
 
 
  💜 Lai !
