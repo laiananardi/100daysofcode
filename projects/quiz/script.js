@@ -24,7 +24,7 @@ const questions = [
         answers: {
             '0': 'A seção &lt;head&gt;',
             '1': 'A seção &lt;body&gt;',
-            '2': 'As duas estão corretas'
+            '2': 'As duas estão corretas'
         },
         correctAnswer: '2'
     },
@@ -104,16 +104,20 @@ function showResults() {
 
         userAnswer = (htmlAnswers[i].querySelector(`input[name=question${i}]:checked`) || {}).value;
         lab = htmlAnswers[i].getElementsByTagName('LABEL')
-
+        inp = htmlAnswers[i].getElementsByTagName('INPUT')
+        
         if (userAnswer === questions[i].correctAnswer) {
         
             numCorrect++;
 
-            lab[userAnswer].style.color = '#379e37';
+            lab[userAnswer].style.color = '#379e37'
 
         }else {
-
-            lab[userAnswer].style.color = '#ff2802';
+            if (htmlAnswers[i].querySelector(`input[name=question${i}]:checked`)  ){
+                lab[userAnswer].style.color = '#ff2802'
+            }else{
+                htmlAnswers[i].style.color = '#1a728d'
+            }
 
         }
     }
@@ -135,5 +139,3 @@ refreshBtn.onclick = function () {
 submitBtn.onclick = function () {
     showResults()
 }
-
-
