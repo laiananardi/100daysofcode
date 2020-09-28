@@ -1,104 +1,139 @@
-const quiz = document.getElementById('quiz');
-const results = document.getElementById('results');
-const submit = document.getElementById('submit');
+const iniSec = document.getElementById('inicial-section')
+const quizSec = document.getElementById('quiz-section')
+const resSec = document.getElementById('result-section')
+
+const quiz = document.getElementById('quiz')
+const results = document.getElementById('results')
+
+const startBtn = document.getElementById('start')
+const submitBtn = document.getElementById('submit')
+const refreshBtn = document.getElementById('refresh')
 
 const questions = [
     {
-        question: "Quanto é 25/5 ?",
+        question: "Dentro de qual elemento HTML colocamos o JavaScript?",
         answers: {
-            a: '3',
-            b: '5',
-            c: '115'
+            '0': '&lt;script&gt;',
+            '1': '&lt;javascript&gt;',
+            '2': '&lt;js&gt;'
         },
-        correctAnswer: 'b'
+        correctAnswer: '0'
     },
     {
-        question: "Quanto é 50/5 ?",
+        question: "Onde é o local correto para inserir o JavaScript?",
         answers: {
-            a: '3',
-            b: '5',
-            c: '10'
+            '0': 'A seção &lt;head&gt;',
+            '1': 'A seção &lt;body&gt;',
+            '2': 'As duas estão corretas'
         },
-        correctAnswer: 'c'
+        correctAnswer: '2'
+    },
+    {
+        question: "Qual é a sintaxe correta para se referir a um script externo chamado 'xxx.js'?",
+        answers: {
+            '0': '&ltscript href=&quot;xxx.js&quot;&gt;',
+            '1': '&lt;script name=&quot;xxx.js&quot;&gt;',
+            '2': '&lt;script src=&quot;xxx.js&quot;&gt;'
+        },
+        correctAnswer: '2'
+    },
+    {
+        question: "Como você escreve &quot;Hello World&quot; em uma caixa de alerta?",
+        answers: {
+            '0': 'alertBox(&quot;Hello World&quot;);',
+            '1': 'msg(&quot;Hello World&quot;);',
+            '2': 'alert(&quot;Hello World&quot;);'
+        },
+        correctAnswer: '2'
+    },
+    {
+        question: "Como você cria uma função em JavaScript?",
+        answers: {
+            '0': 'function myFunction()',
+            '1': 'function:myFunction()',
+            '2': 'function = myFunction()'
+        },
+        correctAnswer: '0'
     }
 ];
 
+function showQuestions() {
 
+    iniSec.style.display = 'none'
+    quizSec.style.display = 'block'
 
-showQuiz();
+    var output = [];
+    var answers;
 
-function showQuiz(){
-    const numeros = ["um", "dois", "três", "quatro"];
-    const str1 = numeros.join()
-    const str2 = numeros.join('-')
-    const str3 = numeros.join(' ')
+    for (var i = 0; i < questions.length; i++) {
 
-    console.log(str1)
-    //output: um,dois,três,quatro
-    console.log(str2)
-    //um-dois-três-quatro
-    console.log(str3)
-    //um dois três quatro
-    function showQuestions(){
-        var output = [];
-        var answers;
+        answers = [];
 
-        for(var i=0; i<questions.length; i++){
+        for (option in questions[i].answers) {
 
-            answers = [];
-
-            for(option in questions[i].answers){
-
-                answers.push(
-                    `<label>
-                        <input type="radio" name="question${i}" value="${option}">
-                        ${option} : 
-                        ${questions[i].answers[option]}
-                    </label>`
-                );
-            }
-            output.push(
-
-                `<div class="question"> ${questions[i].question} </div>
-                <div class="answers"> ${answers.join('')} </div>`
-
+            answers.push(
+                `<label > 
+                    <input type="radio" name="question${i}" value="${option}">
+                    ${questions[i].answers[option]} 
+                </label>`
             );
         }
+        output.push(
 
-        quiz.innerHTML = output.join('');
+            `<div class="question"> ${questions[i].question} </div>
+            <div class="answers"> ${answers.join('')} </div>`
+
+        );
     }
 
-
-    function showResults(){
-        
-        var htmlAnswers = quiz.querySelectorAll('.answers');
-        
-        var userAnswer = '';
-        var numCorrect = 0;
-        
-        for(var i=0; i<questions.length; i++){
-
-            userAnswer = (htmlAnswers[i].querySelector(`input[name=question${i}]:checked`)||{}).value;
-            
-            if(userAnswer===questions[i].correctAnswer){
-
-                numCorrect++;
-                
-                htmlAnswers[i].style.color = 'lightgreen';
-            }
-            else{
-        
-                htmlAnswers[i].style.color = 'red';
-            }
-        }
-
-        results.innerHTML = `${numCorrect} / ${questions.length}` 
-    }
-
-    showQuestions();
-    
-    submit.onclick = function(){
-        showResults(questions, quiz, results);
-    }
-
+    quiz.innerHTML = output.join('');
 }
+
+
+function showResults() {
+
+    submitBtn.style.display = 'none'
+    resSec.style.display = 'block'
+
+    const htmlAnswers = quiz.querySelectorAll('.answers')
+
+    var userAnswer = ''
+    var numCorrect = 0
+
+    for (var i = 0; i < questions.length; i++) {
+
+        userAnswer = (htmlAnswers[i].querySelector(`input[name=question${i}]:checked`) || {}).value;
+        lab = htmlAnswers[i].getElementsByTagName('LABEL')
+
+        if (userAnswer === questions[i].correctAnswer) {
+        
+            numCorrect++;
+
+            lab[userAnswer].style.color = '#379e37';
+
+        }else {
+
+            lab[userAnswer].style.color = '#ff2802';
+
+        }
+    }
+
+    results.innerHTML = `${numCorrect} / ${questions.length}`
+}
+
+function refresh() {
+    document.location.reload()
+}
+
+startBtn.onclick = function () {
+    showQuestions()
+}
+
+refreshBtn.onclick = function () {
+    refresh()
+}
+submitBtn.onclick = function () {
+    showResults()
+}
+
+
