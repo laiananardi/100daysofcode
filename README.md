@@ -89,7 +89,7 @@
 | 32 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/projects/pomodoro">Pomodoro</a> Javascript  |
 | 33 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/curso-javascript-ninja/challenge-01">curso javascript ninja</a> challenge-01|
 | 34 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/projects/quiz">Quiz App(beggining)</a> and <a href="https://www.linkedin.com/feed/update/urn:li:activity:6715745184732237825/">join() method</a>|
-
+| 35 | <a href="https://quizlai.netlify.app/">Quiz</a> Javascript  |
 
  💜 Lai !
 
