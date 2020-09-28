@@ -1,0 +1,130 @@
+body{
+    font: normal 15pt Arial;
+    background: #323383;
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    
+}
+
+/* inicial section */
+
+#inicial-section{
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 17px;
+    margin-top: 3rem;
+}
+
+#inicial-section button#start{
+    border: none;
+    border-radius: 10px;
+    background: #20215f;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 0;
+    width: 110px;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+#inicial-section button#start:hover{
+    background: #20215fda;
+}
+
+/* quiz section */
+
+#quiz-section{
+    display: none;
+    width: 500px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 17px;
+}
+#quiz-section .question{
+    margin: 15px 0;
+    color: #444;
+}
+#quiz-section .answers{
+    display: grid;
+    color: #555;
+    margin-bottom: 15px;
+}
+#quiz-section label{
+    margin: 10px;
+    background: #32338334;
+    border-radius: 10px;
+}
+#quiz-section div#result{
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+#quiz-section button#submit{
+    border: none;
+    border-radius: 10px;
+    background: #20215f;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 0;
+    width: 150px;
+    cursor: pointer;
+}
+#quiz-section button#submit:hover{
+    background: #20215fda;
+}
+
+
+/* result section */
+
+#result-section{
+    display: none;
+    width: 500px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 17px;
+}
+
+#result-section div#results{
+    margin: 20px;
+    font-size: 20px;
+    color: #323383 ;
+}
+
+#result-section button#refresh{
+    border: none;
+    border-radius: 10px;
+    background: #20215f;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 0;
+    width: 150px;
+    cursor: pointer;
+}
+#result-section button#refresh:hover{
+    background: #20215fda;
+}
+
+@media(max-width: 580px){
+    #inicial-section, #quiz-section, #result-section{
+        width: 300px;
+    }
+}
