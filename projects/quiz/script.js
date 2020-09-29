@@ -1,3 +1,4 @@
+
 const iniSec = document.getElementById('inicial-section')
 const quizSec = document.getElementById('quiz-section')
 const resSec = document.getElementById('result-section')
@@ -10,6 +11,8 @@ const submitBtn = document.getElementById('submit')
 const refreshBtn = document.getElementById('refresh')
 const previousBtn = document.getElementById("previous");
 const nextBtn = document.getElementById("next");
+
+var elem = document.getElementById("myBar");
 
 
 
@@ -62,7 +65,7 @@ const questions = [
 ];
 
 function showQuestions() {
-    
+
     iniSec.style.display = 'none'
     quizSec.style.display = 'block'
 
@@ -112,15 +115,15 @@ function showResults() {
         lab = htmlAnswers[i].getElementsByTagName('LABEL')
         inp = htmlAnswers[i].getElementsByTagName('INPUT')
         if (userAnswer === questions[i].correctAnswer) {
-        
+
             numCorrect++;
 
             lab[userAnswer].style.color = '#379e37'
 
-        }else {
-            if (htmlAnswers[i].querySelector(`input[name=question${i}]:checked`)  ){
+        } else {
+            if (htmlAnswers[i].querySelector(`input[name=question${i}]:checked`)) {
                 lab[userAnswer].style.color = '#ff2802'
-            }else{
+            } else {
                 htmlAnswers[i].style.color = '#1a728d'
             }
 
@@ -128,8 +131,9 @@ function showResults() {
     }
 
     results.innerHTML = `${numCorrect} / ${questions.length}`
-    
+
 }
+
 
 function refresh() {
     document.location.reload()
@@ -137,42 +141,54 @@ function refresh() {
 
 
 function showSlide(n) {
-    const slides = quiz.querySelectorAll(".slide");
+    const slides = quiz.querySelectorAll(".slide")
 
     slides[currentSlide].classList.remove('active-slide')
     slides[n].classList.add('active-slide')
-    currentSlide = n;    
-    // console.log(slides[currentSlide])   
-    if(currentSlide === 0){
-      previousBtn.style.display = 'none';
-    }
-    else{
-      previousBtn.style.display = 'inline-block';
-    }
-    if(currentSlide === slides.length-1){
-      nextBtn.style.display = 'none';
-      submitBtn.style.display = 'inline-block';
-    }
-    else{
-      nextBtn.style.display = 'inline-block';
-      submitBtn.style.display = 'none';
-    }
-  }
 
-  function showNextSlide() {
-    showSlide(currentSlide + 1);
-  }
-  
-  function showPreviousSlide() {
-    showSlide(currentSlide - 1);
-  }
+    currentSlide = n
+      
+    if (currentSlide === 0) {
+        previousBtn.style.display = 'none'
+    }
+    else {
+        previousBtn.style.display = 'inline-block'
+    }
+    if (currentSlide === slides.length - 1) {
+        nextBtn.style.display = 'none'
+        submitBtn.style.display = 'inline-block'
+    }
+    else {
+        nextBtn.style.display = 'inline-block'
+        submitBtn.style.display = 'none'
+    }
+}
 
-  
-  let currentSlide = 0;
+//progress bar
+var width = 100 / questions.length
+const progress = 100 / questions.length
 
-previousBtn.addEventListener("click", showPreviousSlide);
+let currentSlide = 0
 
-nextBtn.addEventListener("click", showNextSlide);
+
+function showNextSlide() {
+    showSlide(currentSlide + 1)
+    
+    width = width + progress
+    elem.style.width = width + "%"
+
+}
+
+function showPreviousSlide() {
+    showSlide(currentSlide - 1)
+
+    width = width - progress
+    elem.style.width = width + "%"
+}
+
+previousBtn.addEventListener("click", showPreviousSlide)
+
+nextBtn.addEventListener("click", showNextSlide)
 
 startBtn.onclick = function () {
     showQuestions()
