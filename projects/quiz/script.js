@@ -128,8 +128,7 @@ function showResults() {
     }
 
     results.innerHTML = `${numCorrect} / ${questions.length}`
-    results.innerHTML = `<p>Browse the questions to see the results
-    </p>`
+    
 }
 
 function refresh() {
