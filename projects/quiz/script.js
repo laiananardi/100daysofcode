@@ -8,6 +8,10 @@ const results = document.getElementById('results')
 const startBtn = document.getElementById('start')
 const submitBtn = document.getElementById('submit')
 const refreshBtn = document.getElementById('refresh')
+const previousBtn = document.getElementById("previous");
+const nextBtn = document.getElementById("next");
+
+
 
 const questions = [
     {
@@ -58,7 +62,7 @@ const questions = [
 ];
 
 function showQuestions() {
-
+    
     iniSec.style.display = 'none'
     quizSec.style.display = 'block'
 
@@ -80,8 +84,10 @@ function showQuestions() {
         }
         output.push(
 
-            `<div class="question"> ${questions[i].question} </div>
-            <div class="answers"> ${answers.join('')} </div>`
+            `<div class="slide">
+                <div class="question"> ${questions[i].question} </div>
+                <div class="answers"> ${answers.join('')} </div>
+            </div>`
 
         );
     }
@@ -105,7 +111,6 @@ function showResults() {
         userAnswer = (htmlAnswers[i].querySelector(`input[name=question${i}]:checked`) || {}).value;
         lab = htmlAnswers[i].getElementsByTagName('LABEL')
         inp = htmlAnswers[i].getElementsByTagName('INPUT')
-        
         if (userAnswer === questions[i].correctAnswer) {
         
             numCorrect++;
@@ -123,14 +128,56 @@ function showResults() {
     }
 
     results.innerHTML = `${numCorrect} / ${questions.length}`
+    results.innerHTML = `<p>Browse the questions to see the results
+    </p>`
 }
 
 function refresh() {
     document.location.reload()
 }
 
+
+function showSlide(n) {
+    const slides = quiz.querySelectorAll(".slide");
+
+    slides[currentSlide].classList.remove('active-slide')
+    slides[n].classList.add('active-slide')
+    currentSlide = n;    
+    // console.log(slides[currentSlide])   
+    if(currentSlide === 0){
+      previousBtn.style.display = 'none';
+    }
+    else{
+      previousBtn.style.display = 'inline-block';
+    }
+    if(currentSlide === slides.length-1){
+      nextBtn.style.display = 'none';
+      submitBtn.style.display = 'inline-block';
+    }
+    else{
+      nextBtn.style.display = 'inline-block';
+      submitBtn.style.display = 'none';
+    }
+  }
+
+  function showNextSlide() {
+    showSlide(currentSlide + 1);
+  }
+  
+  function showPreviousSlide() {
+    showSlide(currentSlide - 1);
+  }
+
+  
+  let currentSlide = 0;
+
+previousBtn.addEventListener("click", showPreviousSlide);
+
+nextBtn.addEventListener("click", showNextSlide);
+
 startBtn.onclick = function () {
     showQuestions()
+    showSlide(currentSlide)
 }
 
 refreshBtn.onclick = function () {
