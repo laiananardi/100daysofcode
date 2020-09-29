@@ -90,6 +90,7 @@
 | 33 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/curso-javascript-ninja/challenge-01">curso javascript ninja</a> challenge-01|
 | 34 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/projects/quiz">Quiz App(beggining)</a> and <a href="https://www.linkedin.com/feed/update/urn:li:activity:6715745184732237825/">join() method</a>|
 | 35 | <a href="https://quizlai.netlify.app/">Quiz</a> Javascript  |
+| 36 | <a href="https://quizlai.netlify.app/">Quiz</a> pagination and blank options style. Javascript  |
 
  💜 Lai !
 
