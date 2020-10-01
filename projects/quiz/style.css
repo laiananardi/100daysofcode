@@ -49,9 +49,14 @@ p{
 }
 
 /* quiz section */
-
+#quiz-section #counter{
+    text-align: center;
+    margin-top: 10px;
+    color: #444;
+}
 #quiz-section #myProgress {
     width: 100%;
+    margin-top: 20px;
     background-color: #ddd;
     border-radius: 10px;
   }
@@ -66,7 +71,7 @@ p{
     position: absolute;
     left: 0px;
     top: 0px;
-    margin: 57px 40px;
+    margin: 95px 40px;
     z-index: 1;
     opacity: 0;
     transition: opacity 0.5s;
@@ -78,17 +83,16 @@ p{
 #quiz-section{
     display: none;
     width: 500px;
+    height: 350px;
     padding: 20px;
     background: #fff;
     border-radius: 10px;
-    margin: auto;
+    margin:0px auto;
     font-size: 17px;
     position: relative;
-    margin-top: 40px;
+    
 }
-#quiz-section{
-    height: 300px;
-}
+
 #quiz-section .question{
     margin: 15px 0;
     color: #444;
@@ -105,7 +109,7 @@ p{
 }
 #quiz-section div#result{
     text-align: center;
-    margin: 260px 0 0 0;
+    margin: 240px 0 0 0;
 }
 #quiz-section button{
     border: none;
