@@ -100,7 +100,9 @@ function showQuestions() {
 
 
 function showResults() {
-
+    seconds = 0
+    counter.remove()
+    
     submitBtn.style.display = 'none'
     resSec.style.display = 'block'
 
@@ -147,7 +149,7 @@ function showSlide(n) {
     slides[n].classList.add('active-slide')
 
     currentSlide = n
-      
+
     if (currentSlide === 0) {
         previousBtn.style.display = 'none'
     }
@@ -165,6 +167,7 @@ function showSlide(n) {
 }
 
 //progress bar
+
 var width = 100 / questions.length
 const progress = 100 / questions.length
 
@@ -173,7 +176,7 @@ let currentSlide = 0
 
 function showNextSlide() {
     showSlide(currentSlide + 1)
-    
+
     width = width + progress
     elem.style.width = width + "%"
 
@@ -185,14 +188,72 @@ function showPreviousSlide() {
     width = width - progress
     elem.style.width = width + "%"
 }
+//timer
 
-previousBtn.addEventListener("click", showPreviousSlide)
+const counter = document.getElementById('counter')
+var seconds = 60
+var minutstimer
+var secondstimer
 
-nextBtn.addEventListener("click", showNextSlide)
+
+function timer() {
+
+    secondstimer = seconds % 60;
+    minutstimer = Math.floor(seconds / 60)
+
+    if (secondstimer < 10) {
+        secondstimer = "0" + secondstimer
+    }
+
+    if (minutstimer < 10) {
+        minutstimer = "0" + minutstimer
+    }
+
+    counter.innerHTML = minutstimer + " : " + secondstimer
+    setInterval(count, 1000);
+}
+
+function count() {
+    if (seconds > 0) {
+
+        seconds--;
+        secondstimer = seconds % 60;
+        minutstimer = Math.floor(seconds / 60)
+
+        if (secondstimer < 10) {
+            secondstimer = "0" + secondstimer
+        }
+
+        if (minutstimer < 10) {
+            minutstimer = "0" + minutstimer
+        }
+
+        counter.innerHTML = minutstimer + " : " + secondstimer
+        if (secondstimer < 10) {
+            counter.style.color = '#ff2802'
+        }
+    }
+    else {
+        counter.innerHTML = "<p>Time is over!</p>"
+        setTimeout(() => counter.remove(), 5000)
+        showResults()
+    }
+}
+
+//EVENTS
+
+previousBtn.onclick = function () {
+    showPreviousSlide()
+}
+
+nextBtn.onclick = function () {
+    showNextSlide()
+}
 
 startBtn.onclick = function () {
     showQuestions()
     showSlide(currentSlide)
+    timer()
 }
 
 refreshBtn.onclick = function () {
