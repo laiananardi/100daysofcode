@@ -26,7 +26,14 @@ section{
   cursor:pointer;
 }
 .checked{
-  color:rgb(255, 217, 0);
+  /* color: crimson; */
+  background: linear-gradient(rgb(255, 217, 0),rgb(255, 123, 0));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  /* background-image: linear-gradient(red, yellow); */
 }
 .unchecked{
   color:#ccc;
@@ -39,7 +46,13 @@ section{
   flex-direction: row;
   justify-content: center;
   font: normal 25pt arial;
-  color:rgb(255, 217, 0) ;
+  /* color:rgb(255, 217, 0) ; */
+  background: linear-gradient(rgb(255, 217, 0),rgb(255, 123, 0));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
 }
 .satisfaction p{
   margin: 0 12px 0 0;
