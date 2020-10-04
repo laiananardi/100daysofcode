@@ -78,6 +78,8 @@ li{
     border-radius: 10px;
     transition: .4s;
     text-align: left;
+    color: #444;
+    font-size: 16px;
 }
 .elements i{
     color: #444;
