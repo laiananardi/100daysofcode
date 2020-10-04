@@ -95,6 +95,7 @@
 | 38 | <a href="https://quizlai.netlify.app/">Quiz</a> Timer. Javascript  |
 | 39 | <a href="https://codepen.io/laiananardi/pen/VwaJdYW">Star Rating</a> Javascript with localStorage  |
 | 40 | <a href="https://codepen.io/laiananardi/pen/VwaJdYW">Star Rating</a> change the style and add satisfaction text  |
+| 41 | <a href="https://to-do-listjs.netlify.app/">To Do List</a> drag and drop JavaScript  |
 
  💜 Lai !
 
