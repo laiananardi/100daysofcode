@@ -79,11 +79,20 @@ function load() {
 
 // add a task
 add.onclick = function () {
+var text = task.value
 
-    var text = task.value
+const list = document.querySelector("#list");
+var element = document.getElementsByTagName('li');
+
+
+add.onclick = function () {
+
+    var text = task.value;
+
     if (text == '') {
-        alert('Please, write a task!')
+        alert('Please, write a task!');
     } else {
+
         tasks.push(text)
         localStorage.setItem('tasks', JSON.stringify(tasks))
         task.value = ''
@@ -138,13 +147,14 @@ function showTasks() {
 // mark as checked
 list.onclick = function (ev) {
     if (ev.target.tagName == 'LI') {
-        // console.log(ev)
+    
         ev.target.classList.toggle('checked')
-        // checked.value = ''
-        // checked.push(ev)
-        // localStorage.setItem('checked', JSON.stringify(checked))
+        
+        ev.target.classList.toggle('checked');
+
     }
 };
+
 
 // delete a task
 list.addEventListener('click', deletetask)
@@ -155,8 +165,16 @@ function deletetask(ev) {
         var id = this.getAttribute('id')
         tasks.splice(id, 1)
         localStorage.setItem('tasks', JSON.stringify(tasks))
+
+list.addEventListener('click', deletetask);
+
+function deletetask (ev){
+    if (ev.target.classList.contains('delete') ) {
+        ev.target.parentElement.remove();
+
     }
 }
+
 
 
 //drag and drop
@@ -215,4 +233,5 @@ var listItens = document.querySelectorAll('.draggable');
 [].forEach.call(listItens, function (item) {
     addEventsDragAndDrop(item);
 });
+
 
