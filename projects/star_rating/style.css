@@ -1,12 +1,12 @@
 body{
-    background: #eee;
+    background: #dfdfdf;
 }
 
 section{
     background: #fff;
     text-align: center;
     display: block;
-    width: 500px;
+    width: 320px;
     padding: 3rem 0;
     border-radius: 10px;
     margin: auto;
@@ -17,7 +17,7 @@ section{
 .stars{
   height:50px;
   width: fit-content;
-  margin: auto auto 13px auto ;
+  margin: auto auto 18px auto ;
 
 }
 
@@ -26,11 +26,35 @@ section{
   cursor:pointer;
 }
 .checked{
-  color:rgb(255, 217, 0);
+  /* color: crimson; */
+  background: linear-gradient(rgb(255, 217, 0),rgb(255, 123, 0));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  /* background-image: linear-gradient(red, yellow); */
 }
 .unchecked{
   color:#ccc;
 }
 .unchecked:hover{
     color: #ddd;
+}
+.satisfaction{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font: normal 25pt arial;
+  /* color:rgb(255, 217, 0) ; */
+  background: linear-gradient(rgb(255, 217, 0),rgb(255, 123, 0));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+}
+.satisfaction p{
+  margin: 0 12px 0 0;
+  font-weight: 600;
 }

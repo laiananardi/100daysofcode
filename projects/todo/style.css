@@ -117,3 +117,8 @@ li:hover{
     text-decoration: line-through;
     background-color: #e0e0e0;
 }
+
+/* drag and drop */
+.over {
+    transform: scale(1.1, 1.1);
+  }
