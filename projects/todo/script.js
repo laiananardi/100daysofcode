@@ -11,8 +11,6 @@ var hour = date.getHours()
 var tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
 
-
-
 // background, day and month
 function load() {
 
@@ -76,11 +74,12 @@ function load() {
 
     today.innerHTML = `<h2>${day} de ${month}</h2>`
     showTasks()
-}   
+
+}
 
 // add a task
 add.onclick = function () {
-   
+
     var text = task.value
     if (text == '') {
         alert('Please, write a task!')
@@ -88,32 +87,50 @@ add.onclick = function () {
         tasks.push(text)
         localStorage.setItem('tasks', JSON.stringify(tasks))
         task.value = ''
-    }
-    // add a task to the list
-    list.innerHTML +=   `<li>
-                                <lable>${text}</lable>    
-                                <i id="" class="far fa-trash-alt delete"></i> 
-                            </li>`
 
+        var li = document.createElement('li');
+        var i = document.createElement('i')
+        var attr = document.createAttribute('draggable');
+        var ul = document.querySelector('ul');
+        li.className = 'draggable';
+        i.className = 'far fa-trash-alt delete'
+        i.id = '${index}'
+        attr.value = 'true';
+        li.setAttributeNode(attr);
+        li.appendChild(document.createTextNode(text));
+        ul.appendChild(li);
+        li.appendChild(i)
+        addEventsDragAndDrop(li);
+    }
 };
 
 // add a task with enter 
 function enterAsClick(event) {
     if (event.keyCode === 13) {
-      event.preventDefault(); 
-      add.click(); 
+        event.preventDefault();
+        add.click();
     }
-  };
-  
-  task.addEventListener('keyup', enterAsClick);
+};
+
+task.addEventListener('keyup', enterAsClick);
 
 // show all tasks
-function showTasks(){
+function showTasks() {
     tasks.forEach(function (element, index) {
-        list.innerHTML +=   `<li>
-                                <lable>${element}</lable>    
-                                <i id="${index}" class="far fa-trash-alt delete"></i> 
-                            </li>`
+        var li = document.createElement('li');
+        var i = document.createElement('i')
+        var attr = document.createAttribute('draggable');
+        var ul = document.querySelector('ul');
+        li.className = 'draggable';
+        i.className = 'far fa-trash-alt delete'
+        i.id = '${index}'
+        attr.value = 'true';
+        li.setAttributeNode(attr);
+        li.appendChild(document.createTextNode(element));
+        ul.appendChild(li);
+        li.appendChild(i)
+        addEventsDragAndDrop(li);
+
 
     });
 }
@@ -121,7 +138,11 @@ function showTasks(){
 // mark as checked
 list.onclick = function (ev) {
     if (ev.target.tagName == 'LI') {
+        // console.log(ev)
         ev.target.classList.toggle('checked')
+        // checked.value = ''
+        // checked.push(ev)
+        // localStorage.setItem('checked', JSON.stringify(checked))
     }
 };
 
@@ -136,4 +157,62 @@ function deletetask(ev) {
         localStorage.setItem('tasks', JSON.stringify(tasks))
     }
 }
+
+
+//drag and drop
+
+
+var remove = document.querySelector('.draggable');
+
+function dragStart(e) {
+    this.style.opacity = '0.2';
+    dragSrcEl = this;
+    e.dataTransfer.effectAllowed = 'move';
+    e.dataTransfer.setData('text/html', this.innerHTML);
+};
+
+function dragEnter(e) {
+    this.classList.add('over');
+}
+
+function dragLeave(e) {
+    e.stopPropagation();
+    this.classList.remove('over');
+}
+
+function dragOver(e) {
+    e.preventDefault();
+    e.dataTransfer.dropEffect = 'move';
+    return false;
+}
+
+function dragDrop(e) {
+    if (dragSrcEl != this) {
+        dragSrcEl.innerHTML = this.innerHTML;
+        this.innerHTML = e.dataTransfer.getData('text/html');
+    }
+    return false;
+}
+
+function dragEnd(e) {
+    var listItens = document.querySelectorAll('.draggable');
+    [].forEach.call(listItens, function (item) {
+        item.classList.remove('over');
+    });
+    this.style.opacity = '1';
+}
+
+function addEventsDragAndDrop(el) {
+    el.addEventListener('dragstart', dragStart, false);
+    el.addEventListener('dragenter', dragEnter, false);
+    el.addEventListener('dragover', dragOver, false);
+    el.addEventListener('dragleave', dragLeave, false);
+    el.addEventListener('drop', dragDrop, false);
+    el.addEventListener('dragend', dragEnd, false);
+}
+
+var listItens = document.querySelectorAll('.draggable');
+[].forEach.call(listItens, function (item) {
+    addEventsDragAndDrop(item);
+});
 
