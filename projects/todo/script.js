@@ -112,7 +112,7 @@ add.onclick = function () {
 };
 
 // add a task with enter 
-function enterAsClick(event) {
+ function enterAsClick(event) {
     if (event.keyCode === 13) {
         event.preventDefault()
         add.click()
@@ -124,6 +124,7 @@ task.addEventListener('keyup', enterAsClick)
 // show all tasks
 function showTasks() {
     tasks.forEach(function (element, index) {
+
         var li = document.createElement('li')
         var i = document.createElement('i')
         var attr = document.createAttribute('draggable')
@@ -138,13 +139,14 @@ function showTasks() {
         li.appendChild(i)
         addEventsDragAndDrop(li)
 
-
     });
 }
 
-// mark as checked
+//mark as checked
 list.onclick = function (ev) {
+
     if (ev.target.tagName == 'LI') {
+
         // console.log(ev)
         ev.target.classList.toggle('checked')
 
@@ -161,7 +163,9 @@ list.onclick = function (ev) {
             localStorage.setItem('check', JSON.stringify(check))
 
         }
+
     }
+
 };
 
 //show checked tasks
@@ -173,7 +177,6 @@ function showChecked() {
 
 // delete a task
 list.addEventListener('click', deletetask)
-
 
 function deletetask(ev) {
     if (ev.target.classList.contains('delete')) {
@@ -188,10 +191,7 @@ function deletetask(ev) {
 }
 
 
-
 //drag and drop
-
-
 var remove = document.querySelector('.draggable')
 
 function dragStart(e) {
