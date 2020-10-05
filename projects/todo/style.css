@@ -18,28 +18,15 @@ body{
     text-align: center;
    
 }
-
 @media(max-width: 600px){
     .container{
         width: 320px;
     }   
 }
 
-.header{
-    background:#2ab1f0;
-    height: 150px;
-    background-size: cover;
-    background-position: 10% 20%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    position: relative;
-    margin-bottom: 20px;
-}
-h1, h2{
-    padding: 12px 0;
-    margin: 0;
-    color: #fff;
-  
+h1{
+    margin: 12px 0;
+    color: #2c588b;
 }
 .add-elements{
     margin: 15px 0;
@@ -54,7 +41,7 @@ input{
 }
 ::placeholder{
     font-size: 18px;
-    padding: 0 10px;
+    padding: 5px;
 }
 
 i#add{
@@ -62,10 +49,14 @@ i#add{
     size: 30px;
     cursor: pointer;
 }
+
 i#add:hover{
     color: #1565c0;
 }
 #list{
+
+.element-list{
+
     
     overflow-y: scroll;
     height: 45vh;
@@ -81,7 +72,7 @@ li{
     padding: 5px 15px;
     font-size: 17px;
     background-color: #fff;
-    margin: 12px 43px;
+    margin: 12px 15px;
     box-shadow: 0 2px 8px rgba(0,0,0,.16);
     border-radius: 10px;
     transition: .4s;
@@ -95,25 +86,17 @@ li{
     cursor: pointer;
 }
 
+
 .elements i:hover{
     color: rgb(209, 49, 81);
 }
 
-/* .elements i#edit{
-    color: #444;
-    float: right;
-    padding-right: 10px;
-    cursor: pointer;
-} */
-
-/* .elements i#edit:hover{
-    color: rgb(49, 209, 116);
-} */
-
 label{
     cursor: pointer;
 }
-
+i#add:hover{
+    color: #1565c0;
+}
 
 li:hover{
     background-color: #e0e0e0;
