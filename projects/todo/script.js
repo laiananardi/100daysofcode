@@ -219,22 +219,27 @@ function dragOver(e) {
 }
 
 function dragDrop(e) {
+    
     if (dragSrcEl != this) {
         dragSrcEl.innerHTML = this.innerHTML
         this.innerHTML = e.dataTransfer.getData('text/html')
        
-        var el = document.getElementById(dragSrcElIndex).className
-        console.log(el)
-
+        var elDrag = document.getElementById(dragSrcElIndex).className
+        var elDrop = document.getElementById(this.id).className
         //add the new order of check to localstorage
-        if (el.includes("checked")) {
+        if (elDrag.includes("checked")) {
             check.pop(dragSrcElIndex)
             check.push(this.id)
             localStorage.setItem('check', JSON.stringify(check))
             document.getElementById(dragSrcElIndex).classList.remove("checked")
             showChecked()
-
-        } 
+        } else if(elDrop.includes("checked")){
+            check.pop(this.id)
+            check.push(dragSrcElIndex)
+            localStorage.setItem('check', JSON.stringify(check))
+            document.getElementById(this.id).classList.remove("checked")
+            showChecked()
+        }
         //add the new order of tasks to localstorage
 
         //dragged element
