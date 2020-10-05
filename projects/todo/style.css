@@ -65,8 +65,7 @@ i#add:hover{
     height: 100px;
 }
 ul{
-    padding: 15px;
-   
+    padding: 0;
 }
 li{
     list-style: none;
@@ -91,18 +90,6 @@ li{
 .elements i:hover{
     color: rgb(209, 49, 81);
 }
-
-/* .elements i#edit{
-    color: #444;
-    float: right;
-    padding-right: 10px;
-    cursor: pointer;
-} */
-
-/* .elements i#edit:hover{
-    color: rgb(49, 209, 116);
-} */
-
 
 label{
     cursor: pointer;
