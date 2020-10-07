@@ -96,6 +96,8 @@
 | 39 | <a href="https://codepen.io/laiananardi/pen/VwaJdYW">Star Rating</a> Javascript with localStorage  |
 | 40 | <a href="https://codepen.io/laiananardi/pen/VwaJdYW">Star Rating</a> change the style and add satisfaction text  |
 | 41 | <a href="https://to-do-listjs.netlify.app/">To Do List</a> drag and drop JavaScript  |
+| 42 | <a href="https://to-do-listjs.netlify.app/">To Do List</a> drag and drop, save new order and checked tasks at localstorage JavaScript  |
+| 43 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/curso-javascript-ninja/challenge-03">challenge-03</a>curso javascript ninja  |
 
  💜 Lai !
 
