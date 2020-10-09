@@ -98,6 +98,8 @@
 | 41 | <a href="https://to-do-listjs.netlify.app/">To Do List</a> drag and drop JavaScript  |
 | 42 | <a href="https://to-do-listjs.netlify.app/">To Do List</a> drag and drop, save new order and checked tasks at localstorage JavaScript  |
 | 43 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/curso-javascript-ninja/challenge-03">challenge-03</a>curso javascript ninja  |
+| 44 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> create, read, delete - PHP and MySQL  |
+| 45 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> update - PHP and MySQL  |
 
  💜 Lai !
 
