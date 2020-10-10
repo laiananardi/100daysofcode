@@ -101,6 +101,8 @@
 | 44 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> create and read - PHP and MySQL  |
 | 45 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> delete - PHP and MySQL  |
 | 46 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> update - PHP and MySQL  |
+| 47 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> picture upload(1) - PHP and MySQL  |
+| 48 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> picture upload(2) - PHP and MySQL  |
 
  💜 Lai !
 
