@@ -103,6 +103,9 @@
 | 46 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> update - PHP and MySQL  |
 | 47 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> picture upload(1) - PHP and MySQL  |
 | 48 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> picture upload(2) - PHP and MySQL  |
+| 49 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> phone(1) create - PHP and MySQL  |
+| 50 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> phone(2) list - PHP and MySQL  |
+| 51 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> phone(3) - PHP and MySQL  |
 
  💜 Lai !
 
