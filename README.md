@@ -109,6 +109,9 @@
 | 52 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> phone(4)  edit - PHP and MySQL  |
 | 53 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/curso-javascript-ninja/challenge-04">challenge-04</a> curso javascript ninja |
 | 54 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/curso-javascript-ninja/challenge-05">challenge-05</a> curso javascript ninja |
+| 55 | <a href="https://github.com/laiananardi/php_crud_mvc">CRUD</a> delete phone field added |
+| 56 | <a href="https://colorconverter.netlify.app/">color_converter</a> hexadecimal to rgb |
+
 
  💜 Lai !
 
