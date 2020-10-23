@@ -1,0 +1,60 @@
+body { 
+    font: normal 15pt arial;
+    display: block;
+}
+.legend p{
+    margin: 2rem ;
+    text-align: center;
+    color: #666;
+}
+.legend h1{
+    text-align: center;
+    margin-top: 2.5rem;
+    color: #555;
+}
+
+.scene {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(228, 228, 228);
+  border-radius: 20px;
+  margin: 2rem auto;
+  perspective: 600px;
+
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.cards.flipped {
+  transform: rotateY(180deg);
+}
+
+.card {
+  position: absolute;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  line-height: 260px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.front {
+  background: rgb(243, 109, 32);
+}
+
+.back {
+  background: rgb(94, 28, 250);
+  transform: rotateY(180deg);
+}
