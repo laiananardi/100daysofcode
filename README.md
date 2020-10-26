@@ -15,10 +15,10 @@
 - [x] Variables and data type
 - [x] <a href="https://www.notion.so/Curso-em-video-JavaScript-762c7cd4ca7c4e18b2563c1d48bf0d0e" target="_blank">A evolução do JavaScript e do EcmaScript</a>
 - [x] Arrays
-- [x] Objetcts Literals
+- [x] Object Literals
 - [x] Methods for Strings, arrays, objects, etc
 - [x] Loops - for while, for...of, forEach, map
-- [x] Conditinals(if, ternary & switch)
+- [x] Conditionals(if, ternary & switch)
 - [x] Functions and arrow functions
 - [x] Template literals
 - [x] <a href="https://stringproject.netlify.app/" target="_blank">String Project</a>
