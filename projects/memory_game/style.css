@@ -29,19 +29,20 @@ body {
   margin: 5px;
   background-color: rgb(228, 228, 228);
 }
+
 .cards {
   width: calc(100% );
   height: calc(100% );
-  /* margin: 5px; */
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform 1s;
   cursor: pointer;
   position: relative;
-  /* box-shadow: 1px 1px 1px rgba(0,0,0,.3); */
   background: rgb(34, 0, 114);
   border-radius: 20px;
 }
+
+
 
 
 .front-face,
@@ -51,7 +52,6 @@ body {
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  /* background: #a5a5a5; */
   border-radius: 20px;
   backface-visibility: hidden;
   padding: 35px;
@@ -61,6 +61,11 @@ body {
 .front-face {
   transform: rotateY(180deg);
 }
+.cards.flip {
+  transform: rotateY(180deg);
+}
+
+
 .cards.flip {
   transform: rotateY(180deg);
 }
