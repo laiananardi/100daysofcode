@@ -114,6 +114,9 @@
 | 57 | <a href="https://colorconverter.netlify.app/">color_converter</a> rgb to hexadecimal(1) |
 | 58 | <a href="https://colorconverter.netlify.app/">color_converter</a> rgb to hexadecimal(2)|
 | 59 | <a href="https://flipcardjs.netlify.app/">flip card</a> JavaScript and CSS|
+| 60 | <a href="https://memorygamelai.netlify.app/">memory game(1)</a> JavaScript |
+| 61 | <a href="https://memorygamelai.netlify.app/">memory game(2)</a> JavaScript |
+| 62 | <a href="https://memorygamelai.netlify.app/">memory game(3)</a> JavaScript |
 
 
 
