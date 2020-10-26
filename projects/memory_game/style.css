@@ -19,6 +19,7 @@ body {
   background-color: rgb(219, 219, 219);
   padding: 20px;
   border-radius: 20px;
+  perspective: 1000px;
 }
 
 .scene{
@@ -32,8 +33,9 @@ body {
   width: calc(100% );
   height: calc(100% );
   /* margin: 5px; */
-  transition: transform 1.5s;
+  transform: scale(1);
   transform-style: preserve-3d;
+  transition: transform 1s;
   cursor: pointer;
   position: relative;
   /* box-shadow: 1px 1px 1px rgba(0,0,0,.3); */
