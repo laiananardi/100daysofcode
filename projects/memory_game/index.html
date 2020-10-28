@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
     <title>Memory Game</title>
 </head>
 <body>
-    
-    <!-- <h1>Memory Game</h1>    -->
+    <section class="initial">
+        <div class="start">
+            <h1>MEMORY GAME</h1>
+        <button id="start">Start</button>
+        </div>
+    </section>  
 
     <section class="memory-game">
+        <div>
+            <a></a>
+        </div>
         <div class="scene">
             <div class="cards" data-card="code">
             <svg xmlns="http://www.w3.org/2000/svg" class="front-face icon icon-tabler icon-tabler-code" style="background: rgb(32, 243, 138);" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -157,6 +166,13 @@
             </div>
         </div>
       </section>
+      <section class="final">
+        <div class="end">
+            <h1>DONE !</h1>
+        <button id="end">Play again?</button>
+        <p>&copy; <i class="fas fa-heart"> </i>Lai ! </p>
+        </div>
+    </section>  
 
     <script src="script.js"></script>
 </body>
