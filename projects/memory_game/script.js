@@ -9,7 +9,7 @@ const game = document.querySelector('.memory-game');
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
-let i = 5;
+let i = 0;
 
 function startGame(){
   initial.style.display = 'none';
