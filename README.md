@@ -118,7 +118,7 @@
 | 61 | <a href="https://memorygamelai.netlify.app/">memory game(2)</a> match cards JavaScript |
 | 62 | <a href="https://memorygamelai.netlify.app/">memory game(3)</a> shuffle JavaScript |
 | 63 | <a href="https://memorygamelai.netlify.app/">memory game(4)</a> inicial section JavaScript |
-| 64 | <a href="https://memorygamelai.netlify.app/">memory game(5)</a> end section JavaScript |
+| 64 | <a href="https://memorygamelai.netlify.app/">memory game(5)</a> final section JavaScript |
 
 
 
