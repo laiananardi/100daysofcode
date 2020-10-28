@@ -1,11 +1,20 @@
 const cards = document.querySelectorAll('.cards');
 const scene = document.querySelectorAll('.scene');
-
+const start = document.querySelector('#start');
+const end = document.querySelector('#end');
+const initial = document.querySelector('.initial');
+const final = document.querySelector('.final');
+const game = document.querySelector('.memory-game');
 
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let i = 0;
 
+function startGame(){
+  initial.style.display = 'none';
+  game.style.display = 'flex';
+}
 function flipCard() {
   if (lockBoard) return;
   if (this === firstCard) return;
@@ -25,8 +34,25 @@ function flipCard() {
 
 function checkForMatch() {
   let isMatch = firstCard.dataset.card === secondCard.dataset.card;
-
-  isMatch ? disableCards() : unflipCards();
+  if(isMatch){
+    disableCards()
+    i ++;
+    console.log(i);
+    setTimeout(function(){
+        if(i >= 6){
+          game.style.display = 'none';
+          final.style.display = 'flex';
+        }
+      }, 1800);
+  
+    // if(i >= 6){
+    //   game.style.display = 'none';
+    //   final.style.display = 'flex';
+    // }
+  }else{
+    unflipCards()
+  }
+  // isMatch ? disableCards() : unflipCards();
 }
 
 function disableCards() {
@@ -56,9 +82,14 @@ function resetBoard() {
   scene.forEach(sce => {
     let randomPos = Math.floor(Math.random() * 12);
 
-    console.log(randomPos)
     sce.style.order = randomPos;
   });
 })();
 
+function endGame(){
+  window.location.reload();
+}
+
 cards.forEach(card => card.addEventListener('click', flipCard));
+start.addEventListener('click', startGame);
+end.addEventListener('click', endGame);

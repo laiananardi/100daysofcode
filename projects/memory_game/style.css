@@ -1,23 +1,71 @@
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  height: 100vh;
+  height: 85vh;
   display: flex;
+  margin: 2rem;
+  flex-direction: column;
+  justify-content: center;
   background: #fff;
+  font: normal 15pt arial;
+}
+
+.initial{
+  width: 400px;
+  height: 400px;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(219, 219, 219);
+  border-radius: 20px;
+  perspective: 1000px;
+  color:rgb(34, 0, 114) ;
+}
+.final{
+  width: 400px;
+  height: 400px;
+  margin:auto;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(219, 219, 219);
+  border-radius: 20px;
+  perspective: 1000px;
+  color:rgb(34, 0, 114) ;
+}
+
+.start{
+  margin: 1rem auto;
+}
+
+button{
+  height: 30px;
+  width: 150px;
+  margin-top: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(34, 0, 114);
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgba(34, 0, 114, 0.904);
 }
 
 .memory-game {
   width: 640px;
   height: 640px;
   margin: auto;
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   background-color: rgb(219, 219, 219);
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px;
   perspective: 1000px;
 }
@@ -54,7 +102,7 @@ body {
   border-radius: 5px;
   border-radius: 20px;
   backface-visibility: hidden;
-  padding: 35px;
+  padding: 20px;
 
 }
 
@@ -68,4 +116,11 @@ body {
 
 .cards.flip {
   transform: rotateY(180deg);
+}
+p{
+  color: #333;
+    text-align: center;
+    font-style: italic;
+    font-size: 13px;
+    margin-top: 2.8rem;
 }
