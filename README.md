@@ -10,6 +10,14 @@
 - Contato:  **laiana.nardi@gmail.com** <br>
 - Início da maratona 24 de Agosto de 2020 <hr>
 
+## Links Úteis
+
+- [Livros Gratuitos em inglês](https://books.goalkicker.com/)
+- [Site para aprender Javascript](https://javascript.info/)
+- [Standards Javascript](https://standardjs.com/rules.html)
+- [Ideias para praticar](https://github.com/florinpop17/app-ideas)
+- [Algoritmos Javascript](https://github.com/trekhleb/javascript-algorithms)
+
 ## JavaScript <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/js.png"  height="30"/> 
 -<a href="https://www.notion.so/Java-Script-057ddbd40c61438391845690c66ca5fc" target="_blank">My notes</a>
 - [x] Variables and data type
