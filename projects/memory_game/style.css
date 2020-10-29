@@ -8,7 +8,7 @@ body {
   margin: 2rem;
   flex-direction: column;
   justify-content: center;
-  background: #fff;
+  background: rgb(39, 233, 217);
   font: normal 15pt arial;
 }
 
@@ -41,6 +41,13 @@ body {
 
 .start{
   margin: 1rem auto;
+}
+
+.timer{
+  text-align: center;
+  display: none;
+  margin: 20px auto;
+  color: #fff;
 }
 
 button{
@@ -123,4 +130,12 @@ p{
     font-style: italic;
     font-size: 13px;
     margin-top: 2.8rem;
+}
+h2{
+  font-size: 20px;
+  color: #333;
+}
+h3{
+  font-size: 18px;
+  color: #444;
 }
