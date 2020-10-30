@@ -49,8 +49,26 @@
 
 ## Node.Js <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/nodejs.png" alt="Node.Js"  height="30"/> 
 
-- [ ] nodejs
+**instalção**: https://nodejs.org/en/ <br>
 
+**Documentação**: https://nodejs.org/dist/latest-v14.x/docs/api/ <br>
+
+**Notion (Em desenvolvimento)**: https://www.notion.so/Nodejs-357a9f079d8141298f046fc1c97bb225
+
+- [ ] Node.js
+   - [ ] O que é?
+   - [ ] Para que serve?
+   - [ ] Vantagens?
+   - [ ] Module System
+      - [ ] Common JS (require/exports)
+      - [ ] os
+      - [ ] setInterval (global)
+      - [ ] events
+      - [ ] fs
+      - [ ] path
+      - [ ] http
+      - [ ] url
+      
  ## Git e GitHub <img align="center" src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/github.webp" alt="git e github" height="30"/> 
  
 - [ ] git e github
