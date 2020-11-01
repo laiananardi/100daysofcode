@@ -148,6 +148,7 @@
 | 65 | <a href="https://memorygamelai.netlify.app/">memory game(6)</a> timer |
 | 66 | <a href="https://randomnumberlai.netlify.app/">Rndom Number(1)</a>|
 | 67 | <a href="https://randomnumberlai.netlify.app/">Random Number(2)</a>|
+| 68 | <a href="https://randomnumberlai.netlify.app/">Random Number(3)</a>|
 
 
 
