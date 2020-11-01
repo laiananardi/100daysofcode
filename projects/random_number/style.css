@@ -37,3 +37,10 @@
   h2 {
     color: rgb(214, 152, 255);
   }
+input{
+  border-radius: 20px;
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  width: 50px;
+}
