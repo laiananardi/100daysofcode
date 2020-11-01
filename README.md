@@ -10,6 +10,14 @@
 - Contato:  **laiana.nardi@gmail.com** <br>
 - Início da maratona 24 de Agosto de 2020 <hr>
 
+## Links Úteis
+
+- [Livros Gratuitos em inglês](https://books.goalkicker.com/)
+- [Site para aprender Javascript](https://javascript.info/)
+- [Standards Javascript](https://standardjs.com/rules.html)
+- [Ideias para praticar](https://github.com/florinpop17/app-ideas)
+- [Algoritmos Javascript](https://github.com/trekhleb/javascript-algorithms)
+
 ## JavaScript <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/js.png"  height="30"/> 
 -<a href="https://www.notion.so/Java-Script-057ddbd40c61438391845690c66ca5fc" target="_blank">My notes</a>
 - [x] Variables and data type
@@ -41,8 +49,26 @@
 
 ## Node.Js <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/nodejs.png" alt="Node.Js"  height="30"/> 
 
-- [ ] nodejs
+**instalção**: https://nodejs.org/en/ <br>
 
+**Documentação**: https://nodejs.org/dist/latest-v14.x/docs/api/ <br>
+
+**Notion (Em desenvolvimento)**: https://www.notion.so/Nodejs-357a9f079d8141298f046fc1c97bb225
+
+- [ ] Node.js
+   - [ ] O que é?
+   - [ ] Para que serve?
+   - [ ] Vantagens?
+   - [ ] Module System
+      - [ ] Common JS (require/exports)
+      - [ ] os
+      - [ ] setInterval (global)
+      - [ ] events
+      - [ ] fs
+      - [ ] path
+      - [ ] http
+      - [ ] url
+      
  ## Git e GitHub <img align="center" src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/github.webp" alt="git e github" height="30"/> 
  
 - [ ] git e github
@@ -114,6 +140,12 @@
 | 57 | <a href="https://colorconverter.netlify.app/">color_converter</a> rgb to hexadecimal(1) |
 | 58 | <a href="https://colorconverter.netlify.app/">color_converter</a> rgb to hexadecimal(2)|
 | 59 | <a href="https://flipcardjs.netlify.app/">flip card</a> JavaScript and CSS|
+| 60 | <a href="https://memorygamelai.netlify.app/">memory game(1)</a> flip cards JavaScript |
+| 61 | <a href="https://memorygamelai.netlify.app/">memory game(2)</a> match cards JavaScript |
+| 62 | <a href="https://memorygamelai.netlify.app/">memory game(3)</a> shuffle JavaScript |
+| 63 | <a href="https://memorygamelai.netlify.app/">memory game(4)</a> inicial section JavaScript |
+| 64 | <a href="https://memorygamelai.netlify.app/">memory game(5)</a> final section JavaScript |
+| 65 | <a href="https://memorygamelai.netlify.app/">memory game(6)</a> timer |
 
 
 
