@@ -1,0 +1,39 @@
+
+  body {
+    background: rgb(21, 90, 122);  
+    color: white;
+    font: normal 15pt arial;
+  }
+  
+  section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgb(132, 0, 255);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all .1s;
+  }
+  
+  button:hover {
+    background:  rgb(108, 1, 207);
+  }
+  
+  #genNum {
+    font-size: 50px;
+    margin: 20px;
+  }
+  
+  h2 {
+    color: rgb(214, 152, 255);
+  }
