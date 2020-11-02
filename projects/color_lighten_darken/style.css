@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #373266;
+    color: white;
+    margin: 2rem;
+}
+
+.container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.title {
+    color: #d6d5ac;
+}
+
+p{
+    margin: 10px;
+}
+label {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+input {
+    margin-bottom: 25px;
+}
+
+input[type="text"]{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.box {
+    height:100px;
+    width: 100%;
+    background-color: #c6d5ac;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
