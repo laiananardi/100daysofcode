@@ -150,6 +150,7 @@
 | 66 | <a href="https://randomnumberlai.netlify.app/">Rndom Number(1)</a>|
 | 67 | <a href="https://randomnumberlai.netlify.app/">Random Number(2)</a>|
 | 68 | <a href="https://randomnumberlai.netlify.app/">Random Number(3)</a>|
+| 68 | Color Lighten/Darken (1) change baclground color </a>|
 
 
 
