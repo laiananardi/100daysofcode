@@ -40,6 +40,7 @@
 - [x] Math.floor()
 - [x] LocalStorage
 - [x] join() method
+- [x] Math.random()
 
 
 
