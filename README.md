@@ -150,7 +150,8 @@
 | 66 | <a href="https://randomnumberlai.netlify.app/">Rndom Number(1)</a>|
 | 67 | <a href="https://randomnumberlai.netlify.app/">Random Number(2)</a>|
 | 68 | <a href="https://randomnumberlai.netlify.app/">Random Number(3)</a>|
-| 68 | Color Lighten/Darken (1) change baclground color </a>|
+| 69 | Color Lighten/Darken (1) base layout, base styling,check for valid hex color in javascript and display color from user hex input </a>|
+| 70 | Color Lighten/Darken (2) convert hex to rgb, convert rgb to hex, display percentage from slider and alter color by percentage </a>|
 
 
 
