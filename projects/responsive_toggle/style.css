@@ -1,0 +1,102 @@
+body {
+    background: honeydew;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+  }
+#header {
+    background: rgba(255, 255, 255, 0.767);
+   }
+   
+   .site-navbar {
+     display: flex;
+     padding: 15px 0px;
+     justify-content: space-between;
+     align-items: center;
+   }
+   .site-logo {
+    font-family: Montserrat, sans-serif;
+    color: rgb(65, 62, 102);
+    font-size: 18px;
+    font-weight: 700;
+     max-height: 25px;
+   }
+   .site-navbar ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     display: flex;
+   }
+   .main-nav a {
+   
+     display: block;
+     margin-left: 30px;
+     color: #0154A6;
+     font-size: 14px;
+     text-transform: uppercase;
+     font-family: "Open Sans", sans-serif;
+     font-weight: 600;
+   }
+   .site-navbar a:hover {
+     color: #d142fd;
+     text-decoration: none;
+   }
+   
+   .navbar-toggle {
+     border: none;
+     font-size: 23px;
+     color: #065e77;
+     cursor: pointer;
+     display: none;
+   }
+   
+   @media screen and (max-width: 700px) {
+     .container {
+       max-width: 720px;
+     }
+    
+     .navbar-toggle{
+       display: block;
+     }
+     .site-navbar {
+       min-height: 60px;
+     }
+     .site-navbar ul {
+       position: absolute;
+       width: 100%;
+       height: calc(100vh - 60px);
+       left: 0;
+       top: 60px;
+       flex-direction: column;
+       align-items: center;
+       border-top: 1px solid rgb(255, 255, 255);
+       background:  rgba(216, 215, 215, 0.705);
+       max-height: 0;
+       overflow: hidden;
+       transition: .3s;
+     }
+     .site-navbar ul li {
+       width: 100%;
+       text-align: center;
+     }
+     .site-navbar ul li a {
+       padding: 25px;
+       margin: 0;
+     }
+     .site-navbar a:hover {
+        color: #d142fd;
+      }
+     .site-navbar ul li a:hover {
+       background-color: rgba(255, 255, 255, 0.568);
+     }
+     .site-navbar ul.open {
+       max-height: 100vh;
+       overflow: visible;
+     }
+     .intro-area h2 {
+       font-size: 36px;
+       margin-bottom: 15px;
+     }  
+   }
+
+   
