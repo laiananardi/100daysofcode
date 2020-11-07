@@ -154,6 +154,7 @@
 | 70 | Color Lighten/Darken (2) convert hex to rgb, convert rgb to hex, display percentage from slider and alter color by percentage |
 | 71 | Color Lighten/Darken (3) hex values stay between 0 and 255, alter color based on user input, toggle lighten/darken |
 | 72 | Responsive toggle|
+| 73 | Responsive toggle|
 
  💜 Lai !
 
