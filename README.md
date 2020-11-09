@@ -150,11 +150,13 @@
 | 66 | <a href="https://randomnumberlai.netlify.app/">Rndom Number(1)</a>|
 | 67 | <a href="https://randomnumberlai.netlify.app/">Random Number(2)</a>|
 | 68 | <a href="https://randomnumberlai.netlify.app/">Random Number(3)</a>|
-| 69 | Color Lighten/Darken (1) base layout, base styling,check for valid hex color in javascript and display color from user hex input|
-| 70 | Color Lighten/Darken (2) convert hex to rgb, convert rgb to hex, display percentage from slider and alter color by percentage |
-| 71 | Color Lighten/Darken (3) hex values stay between 0 and 255, alter color based on user input, toggle lighten/darken |
-| 72 | Responsive toggle|
-| 73 | Responsive toggle|
+| 69 | <a href="https://color-lighten-darken.netlify.app/">Color Lighten/Darken (1) base layout, base styling,check for valid hex color in javascript and display color from user hex input</a>|
+| 70 | <a href="https://color-lighten-darken.netlify.app/">Color Lighten/Darken (2) convert hex to rgb, convert rgb to hex, display percentage from slider and alter color by percentage</a> |
+| 71 | <a href="https://color-lighten-darken.netlify.app/">Color Lighten/Darken (3) hex values stay between 0 and 255, alter color based on user input, toggle lighten/darken</a> |
+| 72 | <a href= "https://codepen.io/laiananardi/pen/abZaVJx">Responsive toggle(1)</a>|
+| 73 | <a href= "https://codepen.io/laiananardi/pen/abZaVJx"> Responsive toggle(2)</a>|
+| 74 | <a href= " https://codepen.io/laiananardi/pen/oNLPmVm">Crousel and back to top button</a>|
+| 75 | <a href= " https://codepen.io/laiananardi/pen/mdEzrBq?editors=1100">Fade In / Fade Out Effect with JavaScript</a>|
 
  💜 Lai !
 
