@@ -153,10 +153,10 @@
 | 69 | <a href="https://color-lighten-darken.netlify.app/">Color Lighten/Darken (1) base layout, base styling,check for valid hex color in javascript and display color from user hex input</a>|
 | 70 | <a href="https://color-lighten-darken.netlify.app/">Color Lighten/Darken (2) convert hex to rgb, convert rgb to hex, display percentage from slider and alter color by percentage</a> |
 | 71 | <a href="https://color-lighten-darken.netlify.app/">Color Lighten/Darken (3) hex values stay between 0 and 255, alter color based on user input, toggle lighten/darken</a> |
-| 72 | <a href= "https://codepen.io/laiananardi/pen/abZaVJx">Responsive toggle(1)</a>|
-| 73 | <a href= "https://codepen.io/laiananardi/pen/abZaVJx"> Responsive toggle(2)</a>|
-| 74 | <a href= " https://codepen.io/laiananardi/pen/oNLPmVm">Crousel and back to top button</a>|
-| 75 | <a href= " https://codepen.io/laiananardi/pen/mdEzrBq?editors=1100">Fade In / Fade Out Effect with JavaScript</a>|
+| 72 | <a href="https://codepen.io/laiananardi/pen/abZaVJx">Responsive toggle(1)</a>|
+| 73 | <a href="https://codepen.io/laiananardi/pen/abZaVJx"> Responsive toggle(2)</a>|
+| 74 | <a href=" https://codepen.io/laiananardi/pen/oNLPmVm">Crousel and back to top button</a>|
+| 75 | <a href=" https://codepen.io/laiananardi/pen/mdEzrBq?editors=1100">Fade In / Fade Out Effect with JavaScript</a>|
 
  💜 Lai !
 
