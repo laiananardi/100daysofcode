@@ -155,8 +155,8 @@
 | 71 | <a href="https://color-lighten-darken.netlify.app/">Color Lighten/Darken (3) hex values stay between 0 and 255, alter color based on user input, toggle lighten/darken</a> |
 | 72 | <a href="https://codepen.io/laiananardi/pen/abZaVJx">Responsive toggle(1)</a>|
 | 73 | <a href="https://codepen.io/laiananardi/pen/abZaVJx"> Responsive toggle(2)</a>|
-| 74 | <a href=" https://codepen.io/laiananardi/pen/oNLPmVm">Crousel and back to top button</a>|
-| 75 | <a href=" https://codepen.io/laiananardi/pen/mdEzrBq?editors=1100">Fade In / Fade Out Effect with JavaScript</a>|
+| 74 | <a href="https://codepen.io/laiananardi/pen/oNLPmVm">Carousel and back to top button</a>|
+| 75 | <a href="https://codepen.io/laiananardi/pen/mdEzrBq?editors=1100">Fade In / Fade Out Effect with JavaScript</a>|
 
  💜 Lai !
 
