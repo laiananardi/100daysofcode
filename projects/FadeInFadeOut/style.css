@@ -1,0 +1,54 @@
+body {
+    background: #c1e0ff;
+ }
+h1 {
+    color: #07557F;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  }
+
+  #header{
+    margin: 3rem 0px;
+  }
+
+  #fade {
+    display: block;
+    margin: 2rem auto;
+   
+  }
+  
+  #fade #buttons{
+      text-align: center;
+      margin: 1rem;
+  }
+  #fade a {
+    color: #074668;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 10px; 
+    cursor: pointer; 
+  }
+  #fade a:hover{
+      background: rgb(240, 240, 240);
+  }
+  
+  #fade #element{
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  #fade #element i {
+    font-size: 300px;
+    color: rgb(255, 218, 6);
+    
+  }
+
+  #fade #fadeout{
+      display: initial;
+  }
+  #fade #fadein{
+      display: none;
+  }
