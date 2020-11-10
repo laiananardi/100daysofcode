@@ -157,6 +157,7 @@
 | 73 | <a href="https://codepen.io/laiananardi/pen/abZaVJx"> Responsive toggle(2)</a>|
 | 74 | <a href="https://codepen.io/laiananardi/pen/oNLPmVm">Carousel and back to top button</a>|
 | 75 | <a href="https://codepen.io/laiananardi/pen/mdEzrBq?editors=1100">Fade In / Fade Out Effect with JavaScript</a>|
+| 76 | Intersection Observer API|
 
  💜 Lai !
 
