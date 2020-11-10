@@ -34,6 +34,7 @@
 - [x] DOM
 - [x] Events JavaScript
 - [x] for, while, do while
+- [x] forEach
 - [x] insertAdjacentHTML()
 - [x] setTimeout()
 - [x] Window setInterval() Method
@@ -41,6 +42,7 @@
 - [x] LocalStorage
 - [x] join() method
 - [x] Math.random()
+- [x] Intersection Observer API JavaScript
 
 
 
@@ -157,7 +159,8 @@
 | 73 | <a href="https://codepen.io/laiananardi/pen/abZaVJx"> Responsive toggle(2)</a>|
 | 74 | <a href="https://codepen.io/laiananardi/pen/oNLPmVm">Carousel and back to top button</a>|
 | 75 | <a href="https://codepen.io/laiananardi/pen/mdEzrBq?editors=1100">Fade In / Fade Out Effect with JavaScript</a>|
-| 76 | Intersection Observer API|
+| 76 | <a href="https://codepen.io/laiananardi/pen/pobQPQy">Scroll Effect (1)</a> Intersection Observer API JavaScript|
+| 77 | <a href="https://codepen.io/laiananardi/pen/pobQPQy">Scroll Effect (2)</a> Intersection Observer API JavaScript|
 
  💜 Lai !
 
