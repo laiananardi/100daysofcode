@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>JS Validation</title>
+</head>
+
+<body>
+  <section id="formSec">
+    <form action="#" id="registration">
+      <h1>Registro de Usuário</h1>
+      <ul id="error-ul">
+
+      </ul>
+
+      <div class="form">
+        <label for="name">Nome:</label>
+        <br>
+        <input type="text" id="name" name="name" />
+      </div>
+
+      <div class="form">
+        <label for="password1">Senha:</label>
+        <br>
+        <input type="password" id="password1" name="password1" />
+      </div>
+
+      <div class="form">
+        <label for="password2">Confirme sua senha:</label>
+        <br>
+        <input type="password" id="password2" name="password2" />
+      </div>
+
+      <div class="form-g">
+        <input type="radio" id="genderM" name="gender" value="male" />
+        <br>
+        <label for="genderM">Masculino</label>
+      </div>
+
+      <div class="form-g">
+        <input type="radio" id="genderF" name="gender" value="female" />
+        <br>
+        <label for="genderF">Feminino</label>
+      </div>
+
+      <div class="form">
+        <label for="city">Selecione uma cidade</label>
+        <br>
+        <select name="city" id="city">
+          <option value="">cidade</option>
+          <option value="Águas Claras">Águas Claras</option>
+          <option value="Asa Norte">Asa Norte</option>
+          <option value="Asa Sul">Asa Sul</option>
+          <option value="Brazlândia">Brazlândia</option>
+          <option value="Candangolândia">Candangolândia</option>
+          <option value="Ceilândia">Ceilândia</option>
+          <option value="Cidade Estrutural">Cidade Estrutural</option>
+          <option value="Cruzeiro">Cruzeiro</option>
+          <option value="Gama">Gama</option>
+          <option value="Guará">Guará</option>
+          <option value="Itapoã">Itapoã</option>
+          <option value="Jardim Botânico">Jardim Botânico</option>
+          <option value="Lago Norte">Lago Norte</option>
+          <option value="Lago Sul">Lago Sul</option>
+          <option value="Noroeste">Noroeste</option>
+          <option value="Nucleo Bandeirante">Nucleo Bandeirante</option>
+          <option value="Paranoa">Paranoa</option>
+          <option value="Park Way">Park Way</option>
+          <option value="Planaltina">Planaltina</option>
+          <option value="Plano Piloto">Plano Piloto</option>
+          <option value="Recanto das Emas">Recanto das Emas</option>
+          <option value="Riacho Fundo I">Riacho Fundo I</option>
+          <option value="Riacho Fundo II">Riacho Fundo II</option>
+          <option value="Samambaia">Samambaia</option>
+          <option value="Santa Maria">Santa Maria</option>
+          <option value="São Sebastião">São Sebastião</option>
+          <option value="Sobradinho">Sobradinho</option>
+          <option value="Sobradinho II">Sobradinho II</option>
+          <option value="Sudoeste">Sudoeste</option>
+          <option value="Taguatinga">Taguatinga</option>
+          <option value="Vicente Pires">Vicente Pires</option>
+        </select>
+      </div>
+      <p>
+        <button type="submit" id="register">Enviar!</button>
+      </p>
+
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
