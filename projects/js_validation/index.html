@@ -18,38 +18,50 @@
 
       <div class="form">
         <label for="name">Nome:</label>
-        <br>
-        <input type="text" id="name" name="name" />
+        <div id="error-name">
+
+        </div>
+        <input type="text" id="name" name="name"  onkeyup="validate()"/>
       </div>
 
       <div class="form">
         <label for="password1">Senha:</label>
-        <br>
-        <input type="password" id="password1" name="password1" />
+        <div id="error-password1">
+
+        </div>
+        <input type="password" id="password1" name="password1"  onkeyup="validate()"/>
       </div>
 
       <div class="form">
         <label for="password2">Confirme sua senha:</label>
-        <br>
-        <input type="password" id="password2" name="password2" />
-      </div>
+        <div id="error-password2">
 
-      <div class="form-g">
-        <input type="radio" id="genderM" name="gender" value="male" />
-        <br>
-        <label for="genderM">Masculino</label>
+        </div>
+        <input type="password" id="password2" name="password2"  onkeyup="validate()"/>
       </div>
+      <div class="form">
+        <div id="error-gender">
 
-      <div class="form-g">
-        <input type="radio" id="genderF" name="gender" value="female" />
-        <br>
-        <label for="genderF">Feminino</label>
+        </div>
+        <div class="form-g">
+          <input type="radio" id="genderM" name="gender" value="male"  onclick="validate()"/>
+          <div id="error-genderM">
+  
+          </div>
+          <label for="genderM">Masculino</label>
+        </div>
+  
+        <div class="form-g">
+          <input type="radio" id="genderF" name="gender" value="female"  onclick="validate()" />
+          <label for="genderF">Feminino</label>
+        </div>
       </div>
-
       <div class="form">
         <label for="city">Selecione uma cidade</label>
-        <br>
-        <select name="city" id="city">
+        <div id="error-city">
+
+        </div>
+        <select name="city" id="city"  onchange="validate()">
           <option value="">cidade</option>
           <option value="Águas Claras">Águas Claras</option>
           <option value="Asa Norte">Asa Norte</option>
@@ -84,9 +96,9 @@
           <option value="Vicente Pires">Vicente Pires</option>
         </select>
       </div>
-      <p>
-        <button type="submit" id="register">Enviar!</button>
-      </p>
+      <div>
+        <button type="submit" id="submit" >Enviar!</button>
+      </div>
 
     </form>
   </section>
