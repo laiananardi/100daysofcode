@@ -7,6 +7,13 @@ body {
 
 	font-weight: 300;
 }
+p{
+  color: #ff0066;
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 1em;
+  list-style-type: none;
+}
 #formSec {
   margin: 2rem auto;
   padding: 30px;
@@ -25,7 +32,8 @@ body {
 }
 .form-g{
   display: flex;
-  margin: 30px;
+  margin: 20px 0;
+  align-items: flex-end;
 
 }
 
@@ -37,11 +45,14 @@ body {
  input,
  textarea {
   box-shadow: none;
-  font-size: 20px;
+  font-size: 15px;
   background: rgba(196, 196, 196, 0.37);
   border-radius: 10px;
   border: rgba(196, 196, 196, 0.37);
   line-height: 1;
+  margin-top: 10px;
+  padding: 5px;
+  
 }
 
  select {
@@ -52,6 +63,7 @@ body {
   border-radius: 10px;
   border: rgba(196, 196, 196, 0.37);
   line-height: 1;
+  margin-top: 10px;
 }
 
 
@@ -68,10 +80,10 @@ button {
 	background: #163488;
   width: 150px;
   text-align: center;
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: center ;
-  margin: 0 auto;
+  margin: 30px auto 0;
 	padding: 10px 0;
 	font: inherit;
 	color: #ecf0f1;
@@ -79,13 +91,3 @@ button {
   cursor: pointer;
 }
 
- ul{
-  padding: 0;
-  text-align: center;
-} li {
-  color: #ff0066;
-	font-weight: 500;
-	margin: 0 1em;
-  margin-bottom: 1em;
-  list-style-type: none;
-}
