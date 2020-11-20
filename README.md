@@ -46,11 +46,11 @@
 
 
 
-## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native"  height="30"/> 
+<!-- ## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native"  height="30"/> 
 
-- [ ] react native
+- [ ] react native -->
 
-## Node.Js <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/nodejs.png" alt="Node.Js"  height="30"/> 
+<!--## Node.Js <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/nodejs.png" alt="Node.Js"  height="30"/> 
 
 **instalção**: https://nodejs.org/en/ <br>
 
@@ -70,7 +70,7 @@
       - [ ] fs
       - [ ] path
       - [ ] http
-      - [ ] url
+      - [ ] url  -->
       
  ## Git e GitHub <img align="center" src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/github.webp" alt="git e github" height="30"/> 
  
