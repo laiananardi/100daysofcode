@@ -44,7 +44,9 @@
 - [x] Math.random()
 - [x] Intersection Observer API JavaScript
 
-
+## Python  
+<!-- -<a href="https://www.notion.so/Java-Script-057ddbd40c61438391845690c66ca5fc" target="_blank">My notes</a> -->
+- [x] introduction
 
 <!-- ## React Native <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/reactnative.png" alt="React Native"  height="30"/> 
 
