@@ -163,6 +163,16 @@
 | 75 | <a href="https://codepen.io/laiananardi/pen/mdEzrBq?editors=1100">Fade In / Fade Out Effect with JavaScript</a>|
 | 76 | <a href="https://codepen.io/laiananardi/pen/pobQPQy">Scroll Effect (1)</a> Intersection Observer API JavaScript|
 | 77 | <a href="https://codepen.io/laiananardi/pen/pobQPQy">Scroll Effect (2)</a> Intersection Observer API JavaScript|
+| 78 | <a href="https://codepen.io/laiananardi/pen/JjKwzjr"> Form validation with JavaScript(1)</a>|
+| 79 | <a href="https://codepen.io/laiananardi/pen/JjKwzjr"> Form validation with JavaScript(2)</a>|
+| 80 | <a href="https://codepen.io/laiananardi/pen/JjKwzjr"> Form validation with JavaScript(3)</a> |
+| 81 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/cs50's/src0"> overview JavaScript </a> |
+| 82 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Print Statement, variables datatypes andtypecasting </a> Python |
+| 83 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Variables DataType Exercise, Arithmetic Operations </a> Python |
+| 84 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/pythoncursoemvideo/exercicios"> exercises 01, 02 and 03 </a> Python |
 
+
+
+Variables DataType Exercise, Arithmetic Operations
  💜 Lai !
 
