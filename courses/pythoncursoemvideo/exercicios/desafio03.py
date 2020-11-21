@@ -1,4 +1,4 @@
-# Crie um scripe Python que leia dois numeros e tenta mostrar a soma entre eles.
+# Crie um script Python que leia dois numeros e mostre a soma entre eles.
 
 print("Digite um número")
 num1 = int(input())
