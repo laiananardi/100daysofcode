@@ -25,3 +25,16 @@ print(msg[-1])
 # welcome
 # Strings
 # s
+
+string = "Welcome to Python!"
+
+print(string,string) #Welcome to Python! Welcome to Python! 
+print(string.upper()) #WELCOME TO PYTHON! - transforma a string para caixa alta
+print(string.lower()) #welcome to python! -transforma a string para caixa baixa
+print(string.capitalize()) #Welcome to python! -capitaliza apenas a primeira palavra-
+print(string.title()) #Welcome To Python! -capitaliza todas as palavras da string-
+print(len(string)) #18 -tamanho-
+print(string.count('o')) #3 -quantidade de vezes que a letra o aparece na string-
+print(string[-7:-1]) #Python -slicing-
+print(string.find('Python')) #11 -mostra a posição-
+print(string.replace('Python', 'Java')) #Welcome to Java!
