@@ -1,12 +1,8 @@
 # Crie um scripe Python que leia dois numeros e tenta mostrar a soma entre eles.
 
-print("Digite um número")
-num1 = int(input())
-print("Digite mais um número")
-num2 = int(input())
-
-soma = num1+num2
-print("A soma dos numeros é igual a : ", soma)
+num1 = int(input('Entre com o primeiro número:'))
+num2 = int(input('Entre com o segundo número:'))
+print('A soma dos dois valores é igual a: ', num1+num2)
 
 # exemplo:
 # Digite um número
