@@ -171,6 +171,9 @@
 | 83 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Variables DataType Exercise, Arithmetic Operations </a> Python |
 | 84 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/pythoncursoemvideo/exercicios"> exercises 01, 02 and 03 </a> Python |
 | 85 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Strings Basic, slicing, fing, replace and format </a> Python |
+| 86 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Strings, input and lists </a> Python |
+| 87 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> lists, tuples and sets </a> Python |
+
 
 
 
