@@ -6,11 +6,17 @@
 # Greet user by name and show km, and mile values
 # 1mile is 1.609 kilometers
 
-print("Enter your name:")
+print("Seu nome:")
 name = input()
-print("Enter distance in km:") 
+print("Distância em quilômetros :") 
 km = input()
 mi = float(km)/1.607
 
 
-print(f'Hello {name}! {km} km is equivalent to {mi:.1f} miles')
+print(f'Olá {name}! {km} km equivale a {mi:.1f} milhas')
+
+# Seu nome:
+# Laiana 
+# Distância em quilômetros :
+# 30
+# Olá Laiana! 30 km equivale a 18.7 milhas
