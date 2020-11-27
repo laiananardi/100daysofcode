@@ -173,6 +173,11 @@
 | 85 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Strings Basic, slicing, fing, replace and format </a> Python |
 | 86 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Strings, input and lists </a> Python |
 | 87 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> lists, tuples and sets </a> Python |
+| 88 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Functions - Calling ,parameters, arguments, defaults </a> Python |
+| 89 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Functions  Named Notation and Return Statement </a> Python |
+| 90 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Comparisons and Booleans and Conditionals: If , Else, Elif </a> Python |
+| 91 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> If/Elif /Else - Exercise and Conditionals - Exercise improve </a> Python |
+
 
 
 
