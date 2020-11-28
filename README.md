@@ -177,11 +177,8 @@
 | 89 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Functions  Named Notation and Return Statement </a> Python |
 | 90 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Comparisons and Booleans and Conditionals: If , Else, Elif </a> Python |
 | 91 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> If/Elif /Else - Exercise and Conditionals - Exercise improve </a> Python |
+| 92 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> While Loops - Exercise </a> Python |
 
 
-
-
-
-Variables DataType Exercise, Arithmetic Operations
  💜 Lai !
 
