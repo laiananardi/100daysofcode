@@ -35,7 +35,6 @@ tentativa = 0
 tentativa_limit=5
 tentativa_numero = 0
 
-
 tentativa = int(input(f'Adivinhe um número de 1 - 100: '))
 tentativa_numero +=1
 while tentativa_numero < tentativa_limit:
