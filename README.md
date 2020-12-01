@@ -178,6 +178,8 @@
 | 90 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Comparisons and Booleans and Conditionals: If , Else, Elif </a> Python |
 | 91 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> If/Elif /Else - Exercise and Conditionals - Exercise improve </a> Python |
 | 92 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> While Loops - Exercise </a> Python |
+| 93 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> For Loops </a> Python |
+| 94 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> For Loops - Exercise</a> Python |
 
 
  💜 Lai !
