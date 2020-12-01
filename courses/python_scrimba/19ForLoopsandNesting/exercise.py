@@ -11,7 +11,7 @@
 #     msg1 = name.title() + '! ' + msg
 #     print(msg1)
 
-#Imprima os com convites para uma festa utilizando o for loops
+#Imprima convites para uma festa utilizando o for loops
 #Os nomes estão em duas listas (nomes e nome1)
 #Adicione também mais 2 nomes extras a lista utilizando um input box quando você rodas o código
 #Imprima um convite  para cada amigo 
