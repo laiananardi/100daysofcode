@@ -181,6 +181,8 @@
 | 93 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> For Loops </a> Python |
 | 94 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> For Loops - Exercise</a> Python |
 | 95 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> sort() and sorted()</a> Python |
+| 96 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Dictionaries </a> Python |
+| 97 | <a href="https://github.com/laiananardi/100daysofcode/tree/master/courses/python_scrimba"> Dictionaries - Exercise</a> Python |
 
 
  💜 Lai !
