@@ -30,24 +30,47 @@ print('Guessing game')
 # if guess != num:
 #     print(f'Sorry you lose! It was {num}')
 
-num = 76
-tentativa = 0
-tentativa_limit=5
-tentativa_numero = 0
+# num = 76
+# tentativa = 0
+# tentativa_limit=5
+# tentativa_numero = 0
 
-tentativa = int(input(f'Adivinhe um número de 1 - 100: '))
-tentativa_numero +=1
-while tentativa_numero < tentativa_limit:
+# tentativa = int(input(f'Adivinhe um número de 1 - 100: '))
+# tentativa_numero +=1
+# while tentativa_numero < tentativa_limit:
     
-    if tentativa != num:
-        tentativa_numero +=1
-        if tentativa > num:
-            tentativa = int(input(f'{tentativa} Muito baixo! tente novamente: '))
+#     if tentativa != num:
+#         tentativa_numero +=1
+#         if tentativa > num:
+#             tentativa = int(input(f'{tentativa} Muito baixo! tente novamente: '))
+#         else:
+#             tentativa = int(input(f'{tentativa} Muito alto! tente novamente: '))
+#     if tentativa == num:
+#         print(f'Você venceu! Você acertou o número: {tentativa}')
+#         break
+    
+# if tentativa != num:
+#     print(f'Você perdeu! A reposta correta era: {num}')
+
+
+import random
+resp=True
+while True:
+    j = 0
+    while True:
+        jogador=int(input('Digite um valor: '))
+        x=range(0,10,1)
+        pc=random.choice(x)
+        print('Escolha do pc: {}'.format(pc))
+        if (jogador+pc) % 2 == 0:
+            print('Você ganhou!\n')
+            j = j + 1
         else:
-            tentativa = int(input(f'{tentativa} Muito alto! tente novamente: '))
-    if tentativa == num:
-        print(f'Você venceu! Você acertou o número: {tentativa}')
+            print('Você perdeu..')
+            break
+    print('O jogador ganhou {} vezes o jogo'.format(j))
+    perg=str(input('\n\nDeseja jogar novamente? [Y/N] ')).strip().upper()
+    if perg=='N':
+        resp=False
+        print('Fim!')
         break
-    
-if tentativa != num:
-    print(f'Você perdeu! A reposta correta era: {num}')
