@@ -1,25 +1,25 @@
 try:
-    num=int(input('Enter a number between 1 and 30: '))
-    num1 = 30/num
+    num=int(input('Entre um número entre 1 e 30: '))
+    div = 30/num
     if num > 30:
         raise ValueError(num)
 except ZeroDivisionError as err:
-    print(err, "You can't divide by Zero!!!")
+    print(err, "Você não pode dividir por zero !!!")
 except ValueError as err:
-    print(err,num, "Bad Value not between 1 and 30!")
+    print(err,num, "Valor não está entre 1 e 30!")
 except:
-    print("Invalid Input!")
+    print("Input invalido!")
 else:
-    print("30 divided by",num, "is: ", 30/num)
+    print("30 dividido por ",num, " é igual a: ", 30/num)
 finally:
-    print("**Thank you for playing!**")
+    print("**Obrigada por jogar!**")
 
 #try:
-    #code you want to run
+    #codigo que você quer rodas
 #except:
-    #executed if error occurs
+    #executado se acontecer um erro
 #else:
-    #executed if no error
+    #executado se não houver erro
 #finally:
-    #always executed 
+    #sempre é executado
 
