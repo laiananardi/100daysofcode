@@ -27,3 +27,7 @@ print(letters_numbers)
 letters_numbers = string.ascii_letters + string.digits
 
 print(letters_numbers)
+
+#   keys_base = list('abcdefghijklmnopqrstuvwxyz !')
+#     random.shuffle(keys_base)
+#     keys = ''.join(keys_base)
