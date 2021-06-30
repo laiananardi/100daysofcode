@@ -32,3 +32,14 @@ def enigma_light(msg,mode,key):
 
 
 print(enigma_light(msg, mode, key))
+
+
+# Digite sua mensagem secreta: Laiana
+# Para codificar sua mensagem digite(e) e para decodificar pressione enter: e
+# Digite a chave que deseja utilizar para codificar ou decodificar (número inteiro)3
+# Odldqd
+
+# Digite sua mensagem secreta: Odldqd
+# Para codificar sua mensagem digite(e) e para decodificar pressione enter: 
+# Digite a chave que deseja utilizar para codificar ou decodificar (número inteiro)3
+# Laiana
